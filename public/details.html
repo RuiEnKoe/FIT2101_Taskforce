@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>Edit Task</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="styles/details.css">
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+      /* Style for the tick mark icon */
+      .Controller:checked + .Thumb .Icon {
+        display: block;
+        color: #00CC00; /* Color for the tick mark (you can change this) */
+        font-size: 16px; /* Adjust the font size as needed */
+        font-weight: bold; /* Adjust the font weight as needed */
+      }
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: #F8C8DC;
+
+      }
+      .dropdown-container:hover .dropdown-content {
+        display: block;
+      }
+      .DetailedDescriptionTextbox::placeholder {
+        color: #ccc; /* Placeholder text color */
+      }
+
+      /* CSS to hide placeholder when user starts typing */
+      .DetailedDescriptionTextbox:not(:placeholder-shown) {
+        color: black;
+      }
+      .checkbox-round {
+        width: 1.3em;
+        height: 1.3em;
+        background-color: white;
+        border-radius: 50%;
+        vertical-align: middle;
+        border: 1px solid #ddd;
+        appearance: none;
+        -webkit-appearance: none;
+        outline: none;
+        cursor: pointer;
+      }
+
+      .checkbox-round:checked {
+        background-color: gray;
+      }
+
+      button{
+        cursor: pointer;
+      }
+
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Imprima:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <script src="scripts/details.js" defer></script>
+    <style>
+      input[type="time"], input[type="date"] {
+        border: 2px solid #000;
+        border-radius: 5px;
+        padding: 5px;
+      }
+    </style>
+    <style>
+      .button2 {
+        display: inline-block;
+        font-size: 1vw;
+        padding-top: 0.4vw;
+        padding-bottom: 0.4vw;
+        padding-left: 0.4vw;
+        padding-right: 0.4vw;
+        font-family: Imprima;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: black;
+        background-color: #FFE5EC;
+        border: none;
+        border-radius: 0.25vw;
+        box-shadow: 0 0.1vw #999;
+
+      }
+      
+      .button2:hover {background-color: #ffa6c1}
+      
+      .button2:active {
+        background-color: #F8C8DC;
+        box-shadow: 0 0.1vw #ccc;
+        transform: translateY(0.2vw);
+      }
+    </style>
+    <style>
+    #detailsForm {
+    opacity: 0;
+    transition: opacity 0.0000001s ease-in-out;
+    }
+    </style>
+    <style>
+      .button3 {
+        display: inline-block;
+        border-radius: 0.25vw;
+        background-color: #FFE5EC;
+        border: none;
+        color: black;
+        text-align: center;
+        font-size: 1vw;
+        padding: 0.4vw;
+        transition: all 0.5s;
+        cursor: pointer;
+        box-shadow: 0 0.1vw #999;
+      }
+
+      .button3 span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+
+      .button3 span:after {
+        content: '\00ab';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        left: -0.2vw;
+        transition: 0.5s;
+      }
+      .button3:hover {background-color: #ffa6c1}
+      .button3:hover span {
+        padding-left: 0.75vw;
+        padding-right: 0;
+      }
+
+      .button3:hover span:after {
+        opacity: 1;
+        left: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="#detailsForm", id = "detailsForm">
+        <div class="SprintAddTask" style="width: 100%; height: 100%; position: absolute; background: #F8C8DC">
+        <div class="Rectangle1" style="width: 100%; height: 10vh; position: absolute; background: #A7C7E7"></div>
+        <a href = "user.html">
+        <img class="Image3" style="width: 3vw; height: 3vw; position: absolute; right: 4%; top: 2vh" src="Icons/310818.png" />
+        </a>
+        <div class="AddATask" style="width: 50%; height: 6vh; position: absolute; left: 4%; top: 2.5vh; color: black; font-size: 3vw; font-family: Josefin Sans; font-weight: 400; word-wrap: break-word">Edit Task</div>
+        <div class="Rectangle2" style="width: 92%; height: 80vh; position: absolute; left: 4%; top: 15vh; background: #ffa6c1; border-radius: 1vw"></div>
+        <div class="Group1" style="width: 88%; height: 70vh; left: 6%; top: 20vh; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+            <div class="Rectangle3" style="width: 120%; height: 100%; background: #FFF3FE; border-radius: 0.5vw"></div>
+        </div>
+        <input type="text" class="EnterATitleTextbox" style="width: 40%; height: 5vh; left: 15%; top: 25vh; position: absolute; background: #FFE5EC; color: black; font-size: 2vw; font-family: Imprima; font-weight: 400; border: none; border-radius: 0.25vw;" placeholder="Enter a title...">
+        <div class="Line1" style="width: 42%; height: 0.005vh; left: 15%; top: 32vh; position: absolute; border: 0.005vh rgba(202.82, 138.62, 218.88, 0.56) solid"></div>
+        <div id="StartTime" style="width: 15%; height: 1vh; right: 14%; top: 22vh; position: absolute; color: #686868; font-size: 1vw; font-family: Imprima; font-weight: 400; word-wrap: break-word">Start time: --</div>
+        <div id="EndTime" style="width: 15%; height: 1vh; right: 14%; top: 26vh; position: absolute; color: #686868; font-size: 1vw; font-family: Imprima; font-weight: 400; word-wrap: break-word">End time: --</div>
+        <div id="CompletionDuration" style="width: 25%; height: 1vh; right: 4%; top: 30vh; position: absolute; color: #686868; font-size: 1vw; font-family: Imprima; font-weight: 400; word-wrap: break-word">Completion Duration: --</div>
+        <div class="Description" style="width: 10%; height: 1vh; left: 15%; top: 34vh; position: absolute; color: black; font-size: 1.5vw; font-family: Imprima; font-weight: 400; word-wrap: break-word">Description</div>
+        <img class="ChapterTitle11" style="width: 2vw; height: 2vw; left: 12%; top: 34.5vh; position: absolute" src="Icons/chapter-title%20(1).png" />
+        <div class="Rectangle4" style="width: 30%; height: 28vh; left: 15%; top: 38vh; position: absolute; background: #FFE5EC; border-radius: 0.25vw;">
+            <textarea class="DetailedDescriptionTextbox" style="width: 100%; height: 100%; color: black; background:#FFE5EC; font-size: 1vw; font-family: Imprima; font-weight: 400; border: 0.05vw solid #ccc; border-radius: 0.25vw; resize: none;" placeholder="Write a more detailed description here..." oninput="checkPlaceholder(this)"></textarea>
+        </div>
+        <div class="PersonInCharge" style="width: 11%; height: 1vh; left: 15%; top: 70vh; position: absolute; color: black; font-size: 1.5vw; font-family: Imprima; font-weight: 400; word-wrap: break-word">Person in charge</div>
+        <img class="UserPic" style="width: 3vw; height: 3vw; left: 11.5%; top: 69vh; position: absolute" src="Icons/users.png" />
+        <div class="DropdownMenuPersonInCharge" style="width: 15%; height: 5vh; padding-top: 1vw; padding-bottom: 1vw; padding-left: 1vw; padding-right: 1vw; left: 15%; top: 75vh; position: absolute; background: #FFE5EC; border-radius: 0.25vw; overflow: hidden; justify-content: flex-end; align-items: center; gap: 0.5vh; display: inline-flex">
+            <div class="SelectAMember" style="color: black; font-size: 0.75vw; font-family: Inter; font-weight: 400; word-wrap: break-word">Select a member</div>
+            <select id="member" name="member" style="width: 100%; box-sizing: border-box; font-size: 0.75vw;"> <!-- Change the font-size value as per your preference -->
+            </select>
+        </div>
+        <div class="Priority" style="width: 10%; height: 1vh; left: 52%; top: 46vh; position: absolute; color: black; font-size: 1.5vw; font-family: Imprima; font-weight: 400; word-wrap: break-word">Priority</div>
+        <div class="TaskStatus" style="width: 10%; height: 1vh; left: 52%; top: 58vh; position: absolute; color: black; font-size: 1.5vw; font-family: Imprima; font-weight: 400; word-wrap: break-word">Task Status</div>
+        <div class="StoryPoint" style="width: 10%; height: 1vh; left: 52%; top: 34vh; position: absolute; color: black; font-size: 1.5vw; font-family: Imprima; font-weight: 400; word-wrap: break-word">Story Point</div>
+        <div class="TagLabel" style="width: 10%; height: 1vh; right: 19%; top: 34vh; position: absolute; color: black; font-size: 1.5vw; font-family: Imprima; font-weight: 400; word-wrap: break-word">Tag Label</div>
+
+        <div class="Rectangle5" style="width: 20%; height: 40vh; right: 9%; top: 38vh; position: absolute; background: #FFE5EC; border-radius: 0.25vw">
+
+        <fieldset style="border: none; padding-top: 1vw; padding-bottom: 1vw; padding-left: 1vw; padding-right: 1vw; margin: 0;">
+          <div style="margin-bottom: 1vw;">
+            <input type="checkbox" id="Front-End" name="Front-End" checked style="width: 1vw; height: 1vw" />
+            <label for="Front-End" style="font-size: 1vw;">Front-End</label>
+          </div>
+  
+          <div style="margin-bottom: 1vw;">
+            <input type="checkbox" id="Back-End" name="Back-End" style="width: 1vw; height: 1vw" />
+            <label for="Back-End" style="font-size: 1vw;">Back-End</label>
+          </div>
+  
+          <div style="margin-bottom: 1vw;">
+            <input type="checkbox" id="UI/UX" name="UI/UX" style="width: 1vw; height: 1vw" />
+            <label for="UI/UX" style="font-size: 1vw;">UI/UX</label>
+          </div>
+  
+          <div style="margin-bottom: 1vw;">
+            <input type="checkbox" id="Database" name="Database" style="width: 1vw; height: 1vw" />
+            <label for="Database" style="font-size: 1vw;">Database</label>
+          </div>
+  
+          <div style="margin-bottom: 1vw;">
+            <input type="checkbox" id="API" name="API" style="width: 1vw; height: 1vw" />
+            <label for="API" style="font-size: 1vw;">API</label>
+          </div>
+  
+          <div style="margin-bottom: 1vw;">
+            <input type="checkbox" id="Framework" name="Framework" style="width: 1vw; height: 1vw" />
+            <label for="Framework" style="font-size: 1vw;">Framework</label>
+          </div>
+  
+          <div style="margin-bottom: 1vw;">
+            <input type="checkbox" id="Testing" name="Testing" style="width: 1vw; height: 1vw" />
+            <label for="Testing" style="font-size: 1vw;">Testing</label>
+          </div>
+        </fieldset>
+        </div>
+
+        <div class="DropdownMenuStatus" style="width: 12%; height: 5vh; padding-top: 1vw; padding-bottom: 1vw; padding-left: 1vw; padding-right: 1vw; left: 52%; top: 62vh; position: absolute; background: #FFE5EC; border-radius: 0.25vw; overflow: hidden; justify-content: flex-end; align-items: center; gap: 0.5vh; display: inline-flex">
+            <div class="SelectAStatus" style="color: black; width: 50%; font-size: 0.75vw; font-family: Inter; font-weight: 400; word-wrap: break-word">Select a status</div>
+            <select id="status" name="status" style="width: 60%; box-sizing: border-box; font-size: 0.75vw;">
+            <option value="1">Not Started</option>
+            <option value="2">In Progress</option>
+            <option value="3">Completed</option>
+            </select>
+        </div>
+
+        <div class="DropdownMenuPriority" style="width: 12%; height: 5vh; padding-top: 1vw; padding-bottom: 1vw; padding-left: 1vw; padding-right: 1vw; left: 52%; top: 50vh; position: absolute; background: #FFE5EC; border-radius: 0.25vw; overflow: hidden; justify-content: flex-end; align-items: center; gap: 0.5vh; display: inline-flex">
+            <div class="SelectAPriority" style="color: black; width: 50%; font-size: 0.75vw; font-family: Inter; font-weight: 400; word-wrap: break-word">Select a priority</div>
+            <select id="priority" name="priority" style="width: 60%; box-sizing: border-box; font-size: 0.75vw;">
+            <option value="1">Low</option>
+            <option value="2">Medium</option>
+            <option value="3">Important</option>
+            <option value="4">Urgent</option>
+            </select>
+        </div>
+
+        <div class="DropdownMenuStoryPoint" style="width: 12%; height: 5vh; padding-top: 1vw; padding-bottom: 1vw; padding-left: 1vw; padding-right: 1vw; left: 52%; top: 38vh; position: absolute; background: #FFE5EC; border-radius: 0.25vw; overflow: hidden; justify-content: flex-end; align-items: center; gap: 0.5vh; display: inline-flex">
+            <div class="SelectANumber" style="color: black; width: 45%; font-size: 0.75vw; font-family: Inter; font-weight: 400; word-wrap: break-word">Select a number</div>
+            <select id="story_points" name="story-points" style="width: 55%; box-sizing: border-box; font-size: 0.75vw;">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            </select>
+        </div>
+        </div>
+      <div class="Rectangle7" style="width: 3%; height: 2vh; top: 22vh; right: 30%; position: absolute; background: #FFE5EC; border-radius: 0.5vw"></div>
+      <div class="Select" id="selectDiv1" style="width: 3%; height: 2vh; top: 22vh; right: 30%; position: absolute; color: black; font-size: 1vw; font-family: Imprima; font-weight: 400; word-wrap: break-word; display: flex; align-items: center; justify-content: center;">Select</div>
+      <input type="time" id="timePicker1" style="display: none; position: absolute; right: 24.8%; top: 24vh; z-index: 10; background-color: #FFE5EC; width: 8.2%; height: 3vh; font-size: 1vw;">
+      <input type="date" id="datePicker1" style="display: none; position: absolute; right: 24.8%; top: 27vh; z-index: 10; background-color: #FFE5EC; width: 8.2%; height: 3vh; font-size: 1vw;">
+
+      <div class="Rectangle7" style="width: 3%; height: 2vh; top: 26vh; right: 30%; position: absolute; background: #FFE5EC; border-radius: 0.5vw"></div>
+      <div class="Select" id="selectDiv2" style="width: 3%; height: 2vh; top: 26vh; right: 30%; position: absolute; color: black; font-size: 1vw; font-family: Imprima; font-weight: 400; word-wrap: break-word; display: flex; align-items: center; justify-content: center;">Select</div>
+      <input type="time" id="timePicker2" style="display: none; position: absolute; right: 24.8%; top: 28vh; z-index: 10; background-color: #FFE5EC; width: 8.2%; height: 3vh; font-size: 1vw;">
+      <input type="date" id="datePicker2" style="display: none; position: absolute; right: 24.8%; top: 31vh; z-index: 10; background-color: #FFE5EC; width: 8.2%; height: 3vh; font-size: 1vw;">
+
+    <button onclick="goBack()">
+      <button3 class="button3" style="width: 4vw; height: 2vw; left: 7.5%; top: 84vh; position: absolute;vertical-align:middle"><span>Back</span></button3>
+    </button>
+      <button onclick="editData()">
+        <button2 class="button2" style="width: 4vw; height: 2vw; right: 9%; top: 84vh; position: absolute;vertical-align:middle">Save</button2>
+      </button>
+      <button onclick="deleteData()">
+        <button2 class="button2" style="width: 4vw; height: 2vw; right: 14%; top: 84vh; position: absolute;vertical-align:middle">Delete</button2>
+      </button>
+      </div>
+
+    <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-auth-compat.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Overall Contribution</title>
+  <link rel="stylesheet" href="styles/adminOverallCont.css">
+  <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-auth-compat.js"></script>
+  <script src="./scripts/adminOverallCont.js" defer></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap" data-tag="font"/>
+</head>
+<body>
+  <div class="BacklogList" style="width: 100%; position: absolute; background: #F8C8DC">
+    <div class="Rectangle1" style="width: 100%; height: 10vh; top:0; left:0 ;position: absolute; background: #A7C7E7"></div>
+    <a href = "user.html", title = "User Details">
+      <img class="Image3" style="width: 3vw; height: 3vw; position: absolute; right: 4%; top: 2vh" src="Icons/310818.png" />
+    </a>
+    <div class="BacklogItems" style="width: 50%; position: absolute; left: 4%; top: 2.5vh; color: black; font-size: 3vw; font-family: Josefin Sans; font-weight: 400; word-wrap: break-word">Overall Contribution</div>
+  </div>
+
+<div>
+  <div id="startDateElement" style="background-color: #ffa6c1; padding: 1vh; border-radius: 0.5vw; text-align: center;position:absolute;top: 15vh; font-size: 1.25vw;left:20%;"> </div>
+  <div id="endDateElement" style="background-color: #ffa6c1; padding: 1vh; border-radius: 0.5vw; text-align: center;position:absolute;top: 15vh; font-size: 1.25vw;right:20%;"> </div>
+</div>
+<!-- Container for cards -->
+<div class="container">
+<div class="Rectangle2" id="userNamesBox" style="width: 92%; height: 70vh; position: absolute; left: 4%; top: 24vh; background: #ffa6c1; border-radius: 1vw; overflow-y: auto;">
+  <div id="userNamesList" class="user-names-list"></div>
+</div>
+
+</div>
+
+<div>
+  <button onclick="goBack()" style="cursor: pointer;">
+    <button3 class="button3" style="width: 4vw; height: 2vw; left: 7.5%; top: 84vh; position: absolute;vertical-align:middle"><span>Back</span></button3>
+  </button>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="tagLabelCheckbox.css">
+
+<html>
+<head>
+<style>
+  /* Use a serif font for the labels */
+  label {
+    font-family: serif;
+  }
+
+  /* Increase the size of the checkboxes */
+  input[type="checkbox"] {
+    transform: scale(1.5); /* Adjust the scale factor as needed */
+  }
+
+  /* Change the color of the checkboxes to baby pink */
+  input[type="checkbox"]:checked + label::before {
+    background-color: #FFC0CB; /* Baby pink color */
+  }
+</style>
+</head>
+<body>
+    <form>
+      <legend><h1>Tag Label</h1></legend>
+      <div>
+        <label>
+          <input type="checkbox" id="Front-End" name="interest" value="Front-End" />
+          Front-End
+        </label>
+      </div>
+      <div>
+        <label>
+          <input type="checkbox" id="Back-End" name="interest" value="Back-End" />
+          Back-End
+        </label>
+      </div>
+      <div>
+        <label>
+          <input type="checkbox" id="UI/UX" name="interest" value="UI/UX" />
+          UI / UX
+        </label>
+      </div>
+      <div>
+        <label>
+          <input type="checkbox" id="Database" name="interest" value="Database" />
+          Database
+        </label>
+      </div>
+      <div>
+        <label>
+          <input type="checkbox" id="API" name="interest" value="API" />
+          API 
+        </label>
+      </div>
+      <div>
+        <label>
+          <input type="checkbox" id="Framework" name="interest" value="Framework" />
+          Framework 
+        </label>
+      </div>
+      <div>
+        <label>
+          <input type="checkbox" id="Testing" name="interest" value="Testing" />
+          Testing 
+        </label>
+      </div>
+    </form>
+  </body>
+  </html>

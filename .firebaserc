@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "fit2101-taskforce-app",
+    "Live": "fit2101-taskforce-app"
+  },
+  "targets": {},
+  "etags": {}
+}

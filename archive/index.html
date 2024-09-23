@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+      /* Style for the tick mark icon */
+      .Controller:checked + .Thumb .Icon {
+        display: block;
+        color: #00CC00; /* Color for the tick mark (you can change this) */
+        font-size: 16px; /* Adjust the font size as needed */
+        font-weight: bold; /* Adjust the font weight as needed */
+      }
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: #F8C8DC;
+
+      }
+      .dropdown-container:hover .dropdown-content {
+        display: block;
+      }
+      .DetailedDescriptionTextbox::placeholder {
+        color: #ccc; /* Placeholder text color */
+      }
+
+      /* CSS to hide placeholder when user starts typing */
+      .DetailedDescriptionTextbox:not(:placeholder-shown) {
+        color: black;
+      }
+      .checkbox-round {
+        width: 1.3em;
+        height: 1.3em;
+        background-color: white;
+        border-radius: 50%;
+        vertical-align: middle;
+        border: 1px solid #ddd;
+        appearance: none;
+        -webkit-appearance: none;
+        outline: none;
+        cursor: pointer;
+      }
+
+      .checkbox-round:checked {
+        background-color: gray;
+      }
+
+      button{
+        cursor: pointer;
+      }
+
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Imprima:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      input[type="time"], input[type="date"] {
+        border: 2px solid #000;
+        border-radius: 5px;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="SprintAddTask" style="width: 100%; height: 100%; position: relative; background: #F8C8DC">
+      <div class="Rectangle1" style="width: 1280px; height: 124px; left: 0px; top: 0px; position: absolute; background: #A7C7E7"></div>
+      <img class="Image3" style="width: 65px; height: 65px; left: 1136px; top: 30px; position: absolute" src="Icons/310818.png" />
+      <div class="Fit2101Assignment" style="width: 553px; height: 65px; left: 47px; top: 43px; position: absolute; color: black; font-size: 48px; font-family: Josefin Sans; font-weight: 400; word-wrap: break-word">FIT2101 Assignment</div>
+      <div class="Rectangle2" style="width: 1174px; height: 609px; left: 53px; top: 170px; position: absolute; background: #FFE5EC; border-radius: 20px"></div>
+      <div class="Group1" style="width: 1109px; height: 523px; left: 86px; top: 217px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+        <div class="Rectangle3" style="width: 1109px; height: 523px; background: #FFF3FE; border-radius: 10px"></div>
+      </div>
+      <input type="text" class="EnterATitleTextbox" style="width: 464px; height: 33px; left: 194px; top: 263px; position: absolute; background: #FFE5EC; color: black; font-size: 25px; font-family: Imprima; font-weight: 400; border: none; border-radius: 5px;" placeholder="Enter a title...">
+
+      <div id="StartTime" style="width: 207px; height: 33px; left: 978px; top: 230px; position: absolute; color: #686868; font-size: 15px; font-family: Imprima; font-weight: 400; word-wrap: break-word">Start time: --</div>
+      <div id="EndTime" style="width: 207px; height: 33px; left: 978px; top: 259px; position: absolute; color: #686868; font-size: 15px; font-family: Imprima; font-weight: 400; word-wrap: break-word">End time: --</div>
+      <div id="CompletionDuration" style="width: 207px; height: 33px; left: 978px; top: 288px; position: absolute; color: #686868; font-size: 15px; font-family: Imprima; font-weight: 400; word-wrap: break-word">Completion Duration: --</div>
+      <div class="Description" style="width: 464px; height: 33px; left: 189px; top: 343px; position: absolute; color: black; font-size: 20px; font-family: Imprima; font-weight: 400; word-wrap: break-word">Description</div>
+      <div class="Line1" style="width: 487px; height: 0px; left: 189px; top: 302px; position: absolute; border: 0.50px rgba(202.82, 138.62, 218.88, 0.56) solid"></div>
+      <img class="ChapterTitle11" style="width: 28px; height: 29px; left: 152px; top: 347px; position: absolute" src="Icons/chapter-title%20(1).png" />
+      <div class="Rectangle4" style="width: 411px; height: 180px; left: 189px; top: 374px; position: absolute; background: #FFE5EC; border-radius: 5px;">
+        <textarea class="DetailedDescriptionTextbox" style="width: 100%; height: 100%; color: black; background:#FFE5EC; font-size: 15px; font-family: Imprima; font-weight: 400; border: 1px solid #ccc; border-radius: 5px; resize: none;" placeholder="Write a more detailed description here..." oninput="checkPlaceholder(this)"></textarea>
+      </div>
+      <div class="Group23" style="width: 513px; height: 73px; left: 138px; top: 594px; position: absolute">
+        <div class="PersonInCharge" style="width: 464px; height: 33px; left: 49px; top: 4px; position: absolute; color: black; font-size: 20px; font-family: Imprima; font-weight: 400; word-wrap: break-word">Person in charge</div>
+        <img class="PngTransparentUsersGroupComputerIconsMembershipMiscellaneousUserInterfaceDesignMonochromeThumbnailRemovebgPreview1" style="width: 39px; height: 37px; left: 0px; top: 0px; position: absolute" src="Icons/users.png" />
+        <div class="DropdownMenuPersonInCharge" style="width: 159px; height: 39px; padding-top: 12px; padding-bottom: 12px; padding-left: 12px; padding-right: 21px; left: 49px; top: 34px; position: absolute; background: #FFE5EC; border-radius: 5px; overflow: hidden; justify-content: flex-end; align-items: center; gap: 11px; display: inline-flex">
+          <div class="SelectAMember" style="color: black; font-size: 12px; font-family: Inter; font-weight: 400; word-wrap: break-word">Select a member</div>
+          <select id="member" name="member" style="width: 100%; box-sizing: border-box; font-size: 10px;"> <!-- Change the font-size value as per your preference -->
+            <option value="1">Brian</option>
+            <option value="2">Rui En</option>
+            <option value="3">Ibrahim</option>
+            <option value="3">Diana</option>
+            <option value="3">Xian Loong</option>
+            <option value="3">Lucas</option>
+          </select>
+        </div>
+      </div>
+      <div class="Rectangle6" style="width: 159px; height: 110px; left: 676px; top: 580px; position: absolute; background: #FFE5EC; border-radius: 5px"></div>
+      <div class="Priority" style="width: 102px; height: 33px; left: 676px; top: 443px; position: absolute; color: black; font-size: 20px; font-family: Imprima; font-weight: 400; word-wrap: break-word">Priority</div>
+      <div class="TaskStatus" style="width: 102px; height: 33px; left: 676px; top: 547px; position: absolute; color: black; font-size: 20px; font-family: Imprima; font-weight: 400; word-wrap: break-word">Task Status</div>
+      <div class="StoryPoint" style="width: 464px; height: 33px; left: 676px; top: 341px; position: absolute; color: black; font-size: 20px; font-family: Imprima; font-weight: 400; word-wrap: break-word">Story Point</div>
+      <div class="StoryPoint" style="width: 102px; height: 33px; left: 676px; top: 341px; position: absolute; color: black; font-size: 20px; font-family: Imprima; font-weight: 400; word-wrap: break-word">Story Point</div>
+      <div class="TagLabel" style="width: 102px; height: 33px; left: 908px; top: 341px; position: absolute; color: black; font-size: 20px; font-family: Imprima; font-weight: 400; word-wrap: break-word">Tag label</div>
+      <div class="RadioButton" style="width: 171px; padding: 3px; left: 684px; top: 590px; position: absolute; justify-content: flex-start; align-items: center; gap: 5px; display: inline-flex">
+        <div class="RadioSymbol" style="width: 24px; height: 24px; position: relative">
+          <input type="checkbox" class="checkbox-round" id="Completed"/>
+        </div>
+        <div class="Label" style="flex: 1 1 0; color: black; font-size: 12px; font-family: Inter; font-weight: 400; word-wrap: break-word">Completed</div>
+      </div>
+      <div class="RadioButton" style="width: 171px; padding: 3px; left: 684px; top: 620px; position: absolute; justify-content: flex-start; align-items: center; gap: 5px; display: inline-flex">
+        <div class="RadioSymbol" style="width: 24px; height: 24px; position: relative">
+          <input type="checkbox" class="checkbox-round" id="InProgress"/>
+        </div>
+        <div class="Label" style="flex: 1 1 0; color: black; font-size: 12px; font-family: Inter; font-weight: 400; word-wrap: break-word">In Progress</div>
+      </div>
+      <div class="RadioButton" style="width: 171px; padding: 3px; left: 684px; top: 650px; position: absolute; justify-content: flex-start; align-items: center; gap: 5px; display: inline-flex">
+        <div class="RadioSymbol" style="width: 24px; height: 24px; position: relative">
+          <input type="checkbox" class="checkbox-round" id="NotStarted"/>
+        </div>
+        <div class="Label" style="flex: 1 1 0; color: black; font-size: 12px; font-family: Inter; font-weight: 400; word-wrap: break-word">Not Started</div>
+      </div>
+
+      <div class="Rectangle5" style="width: 232px; height: 329px; left: 908px; top: 376px; position: absolute; background: #FFE5EC; border-radius: 5px">
+
+        <fieldset>
+        <div>
+          <input type="checkbox" id="Front-End" name="Front-End" checked />
+          <label for="Front-End">Front-End</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="Back-End" name="Back-End" />
+          <label for="Back-End">Back-End</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="UIUX" name="UIUX" />
+          <label for="UIUX">UI/UX</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="database" name="database" />
+          <label for="database">Database</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="api" name="api" />
+          <label for="api">API</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="framework" name="framework" />
+          <label for="framework">Framework</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="testing" name="testing" />
+          <label for="testing">Testing</label>
+        </div>
+      </fieldset>
+      </div>
+
+      <div class="DropdownMenuPriority" style="width: 159px; padding-top: 12px; padding-bottom: 12px; padding-left: 12px; padding-right: 21px; left: 676px; top: 474px; position: absolute; background: #FFE5EC; border-radius: 5px; overflow: hidden; justify-content: flex-end; align-items: center; gap: 11px; display: inline-flex">
+        <div class="SelectAPriority" style="color: black; font-size: 12px; font-family: Inter; font-weight: 400; word-wrap: break-word">Select a priority</div>
+        <select id="priority" name="priority" style="width: 100%; box-sizing: border-box;">
+          <option value="1">Low</option>
+          <option value="2">Medium</option>
+          <option value="3">High</option>
+        </select>
+      </div>
+
+      <div class="DropdownMenuStoryPoint" style="width: 159px; padding-top: 12px; padding-bottom: 12px; padding-left: 12px; padding-right: 21px; left: 676px; top: 374px; position: absolute; background: #FFE5EC; border-radius: 5px; overflow: hidden; justify-content: flex-end; align-items: center; gap: 11px; display: inline-flex">
+        <div class="SelectANumber" style="color: black; font-size: 12px; font-family: Inter; font-weight: 400; word-wrap: break-word">Select a number</div>
+        <select id="story-points" name="story-points">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+      </div>
+      <div class="Group26952" style="position: relative; width: 43px; height: 21px; left: 925px; top: 231px;">
+        <div class="Rectangle7" style="width: 41px; height: 17px; position: absolute; background: #FFE5EC; border-radius: 5px"></div>
+        <div class="Select" id="selectDiv1" style="width: 38px; height: 20px; position: absolute; color: black; font-size: 13px; font-family: Imprima; font-weight: 400; word-wrap: break-word">Select</div>
+        <input type="time" id="timePicker1" style="display: none; position: absolute; top: 25px; z-index: 10; background-color: #FFE5EC;">
+
+        <input type="date" id="datePicker1" style="display: none; position: absolute; top: 60px; z-index: 10; background-color: #FFE5EC;">
+    </div>
+
+
+      <div class="Group26953" style="position: relative; width: 43px; height: 21px; left: 925px; top: 237px;">
+        <div class="Rectangle7" style="width: 41px; height: 17px; position: absolute; background: #FFE5EC; border-radius: 5px"></div>
+        <div class="Select" id="selectDiv2" style="width: 33px; height: 20px; position: absolute; text-align: center; color: black; font-size: 13px; font-family: Imprima; font-weight: 400; word-wrap: break-word">Select</div>
+        <input type="time" id="timePicker2" style="display: none; position: absolute; top: 25px; z-index: 10;">
+        <input type="date" id="datePicker2" style="display: none; position: absolute; top: 60px; z-index: 10;">
+    </div>
+
+    <a href="backlog-listed.html">
+      <img class="Image2" style="width: 32px; height: 32px; left: 106px; top: 690px; position: absolute" src="Icons/arrow_left.png" />
+    </a>
+      <button onclick="saveData()">
+        <img class="Download1RemovebgPreview1" style="width: 33px; height: 35px; left: 152px; top: 688px; position: absolute" src="Icons/download__1_-removebg-preview%201.png" />
+      </button>
+      </div>
+
+    <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-auth-compat.js"></script>
+    <script src="src/index.js" defer></script>
+  </body>
+
+</html>

@@ -1,0 +1,52 @@
+/* taskStatusRadioButton.css */
+
+/* Add a background rectangle surrounding all options */
+  
+p {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-bottom: 10px; /* Add space below the title */
+    font-family: serif; /* Use a serif font */
+    color: black; /* Text color */
+    font-weight: bold; /* Bold the title */
+    text-align: left; /* Center-align the title */
+    font-family: sans-serif; /* Use a sans-serif font for the title */
+  }
+  
+  /* Style the radio options and labels container */
+  .options-container {
+    border: 2px solid black; /* Add a border around all options */
+    padding: 10px; /* Add padding for spacing */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  /* Style the radio options and labels */
+  div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Add space between options */
+  }
+  
+  /* Style the radio buttons */
+  input[type="radio"] {
+    appearance: none; /* Remove default radio button appearance */
+    width: 20px; /* Adjust the size of the radio button */
+    height: 20px; /* Adjust the size of the radio button */
+    border: 2px solid black; /* Border color */
+    border-radius: 50%; /* Make it circular */
+    margin-right: 10px; /* Add space between radio buttons and labels */
+    cursor: pointer; /* Show a pointer cursor when hovering over radio buttons */
+  }
+  
+  /* Change the radio button appearance when checked */
+  input[type="radio"]:checked {
+    background-color: rgb(211, 112, 206); /* Fill color when checked */
+    
+  }
+  
+  /* Style the labels */
+  label {
+    font-size: 16px; /* Adjust the font size as needed */
+    font-family: sans-serif; /* Use a sans-serif font */
+    color: rgb(0, 0, 0); /* Text color */
+  }
+  

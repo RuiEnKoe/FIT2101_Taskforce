@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>User Information</title>
+    <link rel="stylesheet" href="styles/user.css">
+    <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-auth-compat.js"></script>
+    <script src="./scripts/user.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap" data-tag="font"/>
+</head>
+<body>
+    <div class="BacklogList" style="width: 100%; position: absolute; background: #F8C8DC; z-index: -1">
+    <div class="Rectangle1" style="width: 100%; height: 10vh; top:0; left:0 ;z-index: -1;position: absolute; background: #A7C7E7"></div>
+    <img class="Image3" style="width: 3vw; height: 3vw; position: absolute; right: 4%; top: 2vh; z-index: -1" src="Icons/310818.png" />
+    <div class="BacklogItems" style="width: 50%; position: absolute; left: 4%; top: 2.5vh; color: black; font-size: 3vw; font-family: Josefin Sans; font-weight: 400; word-wrap: break-word;z-index: -1">User Information</div>
+    </div>
+    <!-- Container for cards -->
+    <div class="container">
+        <h3 style = "margin-bottom: 1vh; font-size: 1.2vw;font-weight: bold;">Username</h3>
+        <h4 id="username" style = "margin-bottom: 2vh; font-size: 1vw;font-weight: lighter;"></h4>
+        <h3 style = "margin-bottom: 1vh; font-size: 1.2vw;font-weight: bold;">Email</h3>
+        <h4 id="email" style = "margin-bottom: 2vh; font-size: 1vw;font-weight: lighter;"></h4>
+        <h3 style = "margin-bottom: 1vh; font-size: 1.2vw;font-weight: bold;">Role</h3>
+        <h4 id="role" style = "font-size: 1vw;font-weight: lighter;"></h4>
+        <button onclick="signOut()">Sign Out</button>
+        <button onclick="changePassword()">Change Password</button>
+        <button3 class="button3" onclick="goBack()"><span>Back</span></button3>
+        <button4 class="button4" onclick="goToAdminView()"><span>Admin View</span></button4>
+    </div>
+</body>
+</html>

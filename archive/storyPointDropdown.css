@@ -1,0 +1,35 @@
+/* Increase the size of the select box */
+select {
+    font-size: 16px;
+    padding: 10px;
+    width: 200px;
+    background-color: #FFC0CB;
+    border: 1px solid #FFC0CB;
+    border-radius: 5px;
+    color: black;
+  }
+  
+  /* Remove the default select arrow */
+  select::-ms-expand,
+  select::-webkit-select {
+    display: none;
+  }
+  
+  /* Style the title "Story Point" */
+  label[for="StoryPoint"] {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: serif;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  /* Style the options within the select with a sans-serif font */
+  select option {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: sans-serif; /* Use a sans-serif font for options */
+  }

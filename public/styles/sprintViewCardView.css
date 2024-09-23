@@ -1,0 +1,315 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inria Sans;
+    background-color: #F8C8DC;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    width : 100%;
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+}
+
+#cardContainer {
+    max-height: 100vh;
+    margin-top: 4vh;
+    border-radius: 0.5vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25%, 1fr)); /* Adjust the column width as needed */
+    grid-gap: 1vw; 
+    overflow-y: auto;
+}
+
+.header {
+    margin-top: 20vh;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size:2.5vh;
+}
+
+.header .headStats{
+    position: absolute;
+    right: 25%;
+}
+
+.header .headSprint{
+    position: absolute;
+    left: 10%;
+}
+
+.header .headStart{
+    position: absolute;
+    left: 37.5%;
+}
+
+.header .headEnd{
+    position: absolute;
+    right: 45%;
+}
+
+
+.card a, .card a:visited, .card a:hover {
+    display: flex;
+    flex-direction: column; /* Display cards vertically */
+    align-items: flex-start; /* Align card content to the left */
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+    font-size: 1vw;
+    margin-bottom: 1.5vh; /* Adjust spacing between cards */
+    border: black solid 0.1vw;
+    border-radius: 0.5vw;
+    background-color: #FFE5EC;
+    padding-left: 1vw; /* Add left padding to push content to the right */
+}
+
+.card a:hover{
+    background-color: #ffa6c1;
+}
+
+.SprintTitle {
+    flex: 1.5; /* 40% of the space */
+    text-align: left;
+}
+
+.notStarted, .inProgress, .completed, .TaskStoryPoints{
+    flex: 1;
+    text-align: left;
+}
+.TaskTags {
+    flex:1.5;
+    text-align: center;
+}
+
+.notStarted {
+    margin-bottom: 0.5vh;
+    margin-top: 0.1vh;
+    font-weight:lighter;
+    color: red;
+}
+
+.inProgress {
+    margin-bottom: 0.5vh;
+    margin-top: 0.1vh;
+    font-weight:lighter;
+    color: orange;
+}
+
+
+.completed {
+    margin-bottom: 0.5vh;
+    margin-top: 0.1vh;
+    font-weight:lighter;
+    color: green;
+}
+
+.notStarted::before {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    content: "Status: ";
+}
+
+.inProgress::before {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    content: "Status: ";
+}
+
+.completed::before {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    content: "Status: ";
+}
+
+.SprintTitle{
+    margin-bottom: 0.5vh;
+    margin-top: 0.5vh;
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin-bottom: 1vh;
+    max-width: 90%;
+    overflow-wrap:break-word;
+}
+
+.start_date{
+    margin-bottom: 0.5vh;
+    margin-top: 0.5vh;
+    font-size: 1vw;
+    font-weight:lighter;
+    margin-bottom: 1vh;
+    max-width: 10%;
+    white-space: nowrap;
+}
+
+.start_date::before {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    content: "Start date: ";
+}
+
+.end_date{
+    margin-bottom: 0.5vh;
+    margin-top: 0.5vh;
+    font-size: 1vw;
+    font-weight:lighter;
+    margin-bottom: 1vh;
+    max-width: 10%;
+    white-space: nowrap;
+}
+
+.end_date::before {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    content: "End date: ";
+}
+
+.button4 {
+    display:inline-block;
+    font-size: 1.5vw;
+    padding-top: 0.4vw;
+    padding-bottom: 0.4vw;
+    padding-left: 0.4vw;
+    padding-right: 0.4vw;
+    font-family: Inria Sans;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: #FFE5EC;
+    border: none;
+    border-radius: 0.25vw;
+    box-shadow: 0 0.1vw #999;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3vw;
+    position: relative;
+    vertical-align: middle;
+    margin-bottom: 6vh;
+  }
+
+.button4:hover {
+    background-color: #ffa6c1;
+}
+
+.button4:active {
+    background-color: #ffa6c1;
+    box-shadow: 0 0.1vw #ccc;
+    transform: translateY(0.2vw);
+}
+
+a[href="prodBacklogAddTask.html"] {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-top: 2vh;
+    font-family: Inria Sans;
+}
+
+#filterTags {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    gap: 0.5vw;
+    font-size: 1vw;
+}
+
+#filterTags input[type="checkbox"] {
+    margin-right: 0.1vw;
+    font-size: 1vw;
+}
+
+#filterTags label {
+    margin-right: 0.8vw;
+    font-size: 1vw;
+}
+
+#RectangleFilter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    margin-left: 0;
+}
+
+body {
+    background-image: url('../Icons/BackgroundImage.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed; /* Optional: this will ensure the image stays in place when the content is scrolled. */
+    z-index: -1;
+}
+
+.bottom-navbar {
+    width: 100%;
+    background-color: #333; /* Dark background for visibility */
+    overflow: auto; /* To contain floated elements */
+    position: fixed; /* Fixed position */
+    bottom: 0; /* Position it at the bottom */
+    left: 0;
+    z-index: 1000; /* High z-index to ensure it stays on top of other elements */
+    font-size: 1.5vw; 
+  }
+  
+  .bottom-navbar a {
+    float: left; /* To align horizontally */
+    display: block;
+    text-align: center;
+    padding: 1vh 1vw; 
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw; 
+  }
+  
+  .bottom-navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .container {
+    padding-bottom: 50px; /* Change to the actual height of your navbar */
+}
+
+  .completeButton {
+    display: inline-block;
+    font-size: 0.8vw;
+    padding-top: 0.1vw;
+    padding-bottom: 0.1vw;
+    padding-left: 0.1vw;
+    padding-right: 0.1vw;
+    font-family: Inria Sans;
+    max-width:5vw;
+    margin-top:0.5vw;
+    margin-bottom:0.5vw;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: #FFE5EC;
+    border: black solid 0.08vw;
+    border-radius: 0.25vw;
+}
+
+.completeButton:hover {
+    background-color: #ffa6c1;
+}
+
+.completeButton:active {
+    background-color: #ffa6c1;
+    transform: translateY(0.2vw);
+}

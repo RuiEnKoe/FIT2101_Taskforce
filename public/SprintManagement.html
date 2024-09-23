@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Sprint View</title>
+  <link rel="stylesheet" href="styles/SprintManagement.css">
+  <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-auth-compat.js"></script>
+  <script src="./scripts/sprintManagement.js" defer></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap" data-tag="font"/>
+</head>
+<body>
+<div class="BacklogList" style="width: 100%; position: absolute; background: #F8C8DC">
+  <div class="Rectangle1" style="width: 100%; height: 10vh; top:0; left:0 ;position: absolute; background: #A7C7E7"></div>
+  <a href = "user.html", title = "User Details">
+      <img class="Image3" style="width: 3vw; height: 3vw; position: absolute; right: 4%; top: 2vh" src="Icons/310818.png" />
+  </a>
+  <div class="BacklogItems" style="width: 50%; position: absolute; left: 4%; top: 2.5vh; color: black; font-size: 3vw; font-family: Josefin Sans; font-weight: 400; word-wrap: break-word">Sprint Management</div>
+</div>
+<div class="container">
+  <div class ="header">
+    <div class = "headBack">
+        Product Backlog
+    </div>
+    <div class = "headSprint">
+        Sprint Backlog
+    </div>
+  </div>
+  <div style="display: flex; width: 100%; height: 60vh; margin-top: 4vh;">
+
+    <!-- Left card container -->
+    <div id="leftCardContainer" style=" margin-left: 2%; overflow-y: auto; border-radius: 0.5vw;background-color: #FFF3FE; text-decoration: none; width: 45%; padding-left: 1%; padding-top: 1%;"></div>
+  
+    <!-- Right card container -->
+    <div id="rightCardContainer" style="margin-top: 3vh;height: 90%; margin-left: 5%;overflow-y: auto; border-radius: 0.5vw;background-color: #FFF3FE; text-decoration: none; width: 45%; padding-left: 1%; padding-top: 1%;"></div>
+  
+  </div>
+  <select id="titlesDropdown">
+    <option value="" disabled selected>Select Sprint ↓</option>
+  </select>
+  <button4 onclick="startSprint()" class="button4" style="width: 9%; height: 3vw; position: absolute;right: 22%;">Start Sprint</button4>
+</div>
+
+<div class="bottom-navbar">
+  <a href="index.html">Product Backlog</a>
+  <a href="SprintViewListView.html">Sprint View</a>
+  <a href="SprintManagement.html">Sprint management</a>
+</div>
+
+</body>
+</html>

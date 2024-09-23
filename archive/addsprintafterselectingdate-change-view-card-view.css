@@ -1,0 +1,866 @@
+.addsprintafterselectingdate-change-view-card-view-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.addsprintafterselectingdate-change-view-card-view-addsprintafterselectingdate-change-view-card-view {
+  width: 100%;
+  height: 832px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(248, 200, 220, 1);
+}
+.addsprintafterselectingdate-change-view-card-view-rectangle1 {
+  top: 0px;
+  left: 0px;
+  width: 1280px;
+  height: 124px;
+  position: absolute;
+}
+.addsprintafterselectingdate-change-view-card-view-text {
+  top: 43px;
+  left: 47px;
+  color: rgba(0, 0, 0, 1);
+  width: 570px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Josefin Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-image3 {
+  top: 30px;
+  left: 1136px;
+  width: 65px;
+  height: 65px;
+  position: absolute;
+}
+.addsprintafterselectingdate-change-view-card-view-rectangle2 {
+  top: 165px;
+  left: 53px;
+  width: 1174px;
+  height: 626px;
+  position: absolute;
+  border-radius: 20px;
+}
+.addsprintafterselectingdate-change-view-card-view-group9 {
+  top: 317px;
+  left: 508px;
+  width: 57px;
+  height: 15px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.addsprintafterselectingdate-change-view-card-view-ellipse6 {
+  top: 4px;
+  left: 0px;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+}
+.addsprintafterselectingdate-change-view-card-view-text02 {
+  left: 18px;
+  color: rgba(104, 104, 104, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-image6 {
+  top: 165px;
+  left: 1141px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.addsprintafterselectingdate-change-view-card-view-text04 {
+  top: 669px;
+  left: 155px;
+  color: rgba(104, 104, 104, 1);
+  width: 250px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-image1171170372graphpngphotocharticonvectorpngtran {
+  top: 171px;
+  left: 1102px;
+  width: 29px;
+  height: 28px;
+  position: absolute;
+}
+.addsprintafterselectingdate-change-view-card-view-image2 {
+  top: 728px;
+  left: 86px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+.addsprintafterselectingdate-change-view-card-view-frame26970 {
+  top: 205px;
+  left: 78px;
+  width: 1109px;
+  height: 557px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.addsprintafterselectingdate-change-view-card-view-group39 {
+  top: 0px;
+  left: 0px;
+  width: 1109px;
+  height: 725px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.addsprintafterselectingdate-change-view-card-view-group1 {
+  top: 0px;
+  left: 0px;
+  width: 1109px;
+  height: 725px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.addsprintafterselectingdate-change-view-card-view-rectangle3 {
+  top: 0px;
+  left: 0px;
+  width: 1109px;
+  height: 725px;
+  position: absolute;
+  border-radius: 10px;
+}
+.addsprintafterselectingdate-change-view-card-view-rectangle7 {
+  top: 33px;
+  left: 806px;
+  width: 202px;
+  height: 43px;
+  position: absolute;
+  border-radius: 5px;
+}
+.addsprintafterselectingdate-change-view-card-view-text06 {
+  top: 32.267578125px;
+  left: 783px;
+  color: rgba(0, 0, 0, 1);
+  width: 250px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-rectangle8 {
+  top: 33px;
+  left: 460px;
+  width: 202px;
+  height: 43px;
+  position: absolute;
+  border-radius: 5px;
+}
+.addsprintafterselectingdate-change-view-card-view-text08 {
+  top: 32.267578125px;
+  left: 437px;
+  color: rgba(0, 0, 0, 1);
+  width: 250px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-rectangle9 {
+  top: 33px;
+  left: 100px;
+  width: 202px;
+  height: 43px;
+  position: absolute;
+  border-radius: 5px;
+}
+.addsprintafterselectingdate-change-view-card-view-text10 {
+  top: 32.267578125px;
+  left: 77px;
+  color: rgba(0, 0, 0, 1);
+  width: 250px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-rectangle4 {
+  top: 87px;
+  left: 47px;
+  width: 310px;
+  height: 442px;
+  position: absolute;
+  border-radius: 5px;
+}
+.addsprintafterselectingdate-change-view-card-view-group10 {
+  top: 273px;
+  left: 67px;
+  width: 270px;
+  height: 170px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.addsprintafterselectingdate-change-view-card-view-group2 {
+  top: 0px;
+  left: 0px;
+  width: 270px;
+  height: 170px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.addsprintafterselectingdate-change-view-card-view-rectangle31 {
+  top: 0px;
+  left: 0px;
+  width: 270px;
+  height: 170px;
+  position: absolute;
+  border-radius: 10px;
+}
+.addsprintafterselectingdate-change-view-card-view-text12 {
+  top: 26px;
+  left: 10px;
+  color: rgba(0, 0, 0, 1);
+  width: 250px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-text14 {
+  top: 89px;
+  left: 10px;
+  color: rgba(104, 104, 104, 1);
+  width: 155px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-text16 {
+  top: 113px;
+  left: 10px;
+  color: rgba(104, 104, 104, 1);
+  width: 155px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-group91 {
+  top: 11px;
+  left: 11px;
+  width: 74px;
+  height: 15px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.addsprintafterselectingdate-change-view-card-view-ellipse61 {
+  top: 4px;
+  left: 0px;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+}
+.addsprintafterselectingdate-change-view-card-view-text23 {
+  left: 18px;
+  color: rgba(104, 104, 104, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-rectangle5 {
+  top: 87px;
+  left: 400px;
+  width: 310px;
+  height: 442px;
+  position: absolute;
+  border-radius: 5px;
+}
+.addsprintafterselectingdate-change-view-card-view-group21 {
+  top: 104px;
+  left: 420px;
+  width: 270px;
+  height: 149px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.addsprintafterselectingdate-change-view-card-view-group15 {
+  top: 0px;
+  left: 0px;
+  width: 270px;
+  height: 149px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.addsprintafterselectingdate-change-view-card-view-rectangle32 {
+  top: 0px;
+  left: 0px;
+  width: 270px;
+  height: 149px;
+  position: absolute;
+  border-radius: 10px;
+}
+.addsprintafterselectingdate-change-view-card-view-text25 {
+  top: 25px;
+  left: 9px;
+  color: rgba(0, 0, 0, 1);
+  width: 250px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-text27 {
+  top: 69px;
+  left: 9px;
+  color: rgba(104, 104, 104, 1);
+  width: 155px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-text29 {
+  top: 93px;
+  left: 10px;
+  color: rgba(104, 104, 104, 1);
+  width: 155px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-rectangle6 {
+  top: 87px;
+  left: 753px;
+  width: 310px;
+  height: 442px;
+  position: absolute;
+  border-radius: 5px;
+}
+.addsprintafterselectingdate-change-view-card-view-group22 {
+  top: 104px;
+  left: 773px;
+  width: 270px;
+  height: 140px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.addsprintafterselectingdate-change-view-card-view-group21 {
+  top: 0px;
+  left: 0px;
+  width: 270px;
+  height: 121px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.addsprintafterselectingdate-change-view-card-view-rectangle33 {
+  top: 0px;
+  left: 0px;
+  width: 270px;
+  height: 121px;
+  position: absolute;
+  border-radius: 10px;
+}
+.addsprintafterselectingdate-change-view-card-view-text36 {
+  top: 26px;
+  left: 10px;
+  color: rgba(0, 0, 0, 1);
+  width: 250px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-text38 {
+  top: 69px;
+  left: 10px;
+  color: rgba(104, 104, 104, 1);
+  width: 155px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-text40 {
+  top: 93px;
+  left: 10px;
+  color: rgba(104, 104, 104, 1);
+  width: 155px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-ellipse3 {
+  top: 13px;
+  left: 12px;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+}
+.addsprintafterselectingdate-change-view-card-view-text42 {
+  top: 9px;
+  left: 39px;
+  color: rgba(98, 98, 99, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-group26 {
+  top: 264px;
+  left: 420px;
+  width: 270px;
+  height: 47px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.addsprintafterselectingdate-change-view-card-view-group151 {
+  top: 0px;
+  left: 0px;
+  width: 270px;
+  height: 47px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.addsprintafterselectingdate-change-view-card-view-rectangle34 {
+  top: 0px;
+  left: 0px;
+  width: 270px;
+  height: 47px;
+  position: absolute;
+  border-radius: 10px;
+}
+.addsprintafterselectingdate-change-view-card-view-text44 {
+  top: 9px;
+  left: 10px;
+  color: rgba(104, 104, 104, 1);
+  width: 250px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-group40 {
+  top: 455px;
+  left: 67px;
+  width: 270px;
+  height: 47px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.addsprintafterselectingdate-change-view-card-view-group152 {
+  top: 0px;
+  left: 0px;
+  width: 270px;
+  height: 47px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.addsprintafterselectingdate-change-view-card-view-rectangle35 {
+  top: 0px;
+  left: 0px;
+  width: 270px;
+  height: 47px;
+  position: absolute;
+  border-radius: 10px;
+}
+.addsprintafterselectingdate-change-view-card-view-text46 {
+  top: 9px;
+  left: 10px;
+  color: rgba(104, 104, 104, 1);
+  width: 250px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-group261 {
+  top: 239px;
+  left: 773px;
+  width: 270px;
+  height: 47px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.addsprintafterselectingdate-change-view-card-view-group153 {
+  top: 0px;
+  left: 0px;
+  width: 270px;
+  height: 47px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.addsprintafterselectingdate-change-view-card-view-rectangle36 {
+  top: 0px;
+  left: 0px;
+  width: 270px;
+  height: 47px;
+  position: absolute;
+  border-radius: 10px;
+}
+.addsprintafterselectingdate-change-view-card-view-text48 {
+  top: 9px;
+  left: 10px;
+  color: rgba(104, 104, 104, 1);
+  width: 250px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-group29 {
+  top: 104px;
+  left: 67px;
+  width: 270px;
+  height: 157px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.addsprintafterselectingdate-change-view-card-view-group16 {
+  top: 0px;
+  left: 0px;
+  width: 270px;
+  height: 157px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.addsprintafterselectingdate-change-view-card-view-rectangle37 {
+  top: 0px;
+  left: 0px;
+  width: 270px;
+  height: 157px;
+  position: absolute;
+  border-radius: 10px;
+}
+.addsprintafterselectingdate-change-view-card-view-text50 {
+  top: 25px;
+  left: 9px;
+  color: rgba(0, 0, 0, 1);
+  width: 250px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-text52 {
+  top: 69px;
+  left: 9px;
+  color: rgba(104, 104, 104, 1);
+  width: 155px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-text54 {
+  top: 93px;
+  left: 10px;
+  color: rgba(104, 104, 104, 1);
+  width: 155px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-group23 {
+  top: 9px;
+  left: 10px;
+  width: 57px;
+  height: 15px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.addsprintafterselectingdate-change-view-card-view-ellipse62 {
+  top: 4px;
+  left: 0px;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+}
+.addsprintafterselectingdate-change-view-card-view-text63 {
+  left: 18px;
+  color: rgba(104, 104, 104, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-group26965 {
+  top: 650px;
+  left: 210px;
+  width: 188px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(232, 167, 218, 1);
+}
+.addsprintafterselectingdate-change-view-card-view-text65 {
+  top: 5px;
+  left: 4px;
+  color: rgba(0, 0, 0, 1);
+  width: 179px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-group26966 {
+  top: 649px;
+  left: 470px;
+  width: 444px;
+  height: 41px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.addsprintafterselectingdate-change-view-card-view-rectangle9197 {
+  top: 0px;
+  left: 0px;
+  width: 188px;
+  height: 40px;
+  position: absolute;
+  border-radius: 5px;
+}
+.addsprintafterselectingdate-change-view-card-view-text67 {
+  top: 5px;
+  left: 4px;
+  color: rgba(0, 0, 0, 1);
+  width: 179px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addsprintafterselectingdate-change-view-card-view-group269651 {
+  top: 1px;
+  left: 256px;
+  width: 188px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(232, 167, 218, 1);
+}
+.addsprintafterselectingdate-change-view-card-view-text69 {
+  top: 5px;
+  left: 4px;
+  color: rgba(0, 0, 0, 1);
+  width: 179px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}

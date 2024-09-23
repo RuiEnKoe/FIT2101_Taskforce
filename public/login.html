@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles/login.css">
+    <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-auth-compat.js"></script>
+    <script src="./scripts/login.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap" data-tag="font"/>
+</head>
+<body>
+    <div class="BacklogList">
+        <div class="Rectangle1"></div>
+        <div class="BacklogItems">Login Page</div>
+    </div>
+    <div class="login-container">
+        <h1 style = "margin-bottom: 1vh; font-size: 2vw;">Welcome Back!</h1>
+        <h3 style = "margin-bottom: 1vh; font-size: 1vw;font-weight: lighter;">Please enter your details</h3>
+        <form id = "login-form">
+            <input type="email" id="email" placeholder="Email" style="font-size: 0.7vw;">
+            <input type="password" id="password" placeholder="Password" style="font-size: 0.7vw;">
+            <div class="button-container">
+                <button type="submit" style="font-size: 0.7vw;">Login</button>
+                <!-- <button type="button" id="register-button" style="font-size: 0.7vw;">Register</button> -->
+                <button onclick= "forgotPassword()" type="button" id="register-button" style="font-size: 0.7vw;">Forgot Password</button>
+            </div>
+            <div class="google-container">
+                <button id="googleLogin">Login With Google</button>
+            </div>
+            <div id="error-message" class="error-message"></div>
+        </form>
+    </div>
+    <div class="credits-container">
+        <h3 style = "margin-bottom: 1vh; font-size: 1vw;font-weight: lighter;">Click here for the <a href ="https://ragtag.link/B5Aoi7">Quick Start Guide</a></h3>
+        <h3 style = "margin-bottom: 1vh; font-size: 1vw;font-weight: lighter;">Made with ❤️ & 🍝 by <a href ="credits.html">TaskForce</a></h3>
+    </div>
+</body>
+</html>

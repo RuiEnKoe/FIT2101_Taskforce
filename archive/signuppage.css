@@ -1,0 +1,391 @@
+.signuppage-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.signuppage-signuppage {
+  width: 100%;
+  height: 832px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(248, 200, 220, 1);
+}
+.signuppage-group12 {
+  top: 31px;
+  left: 52px;
+  width: 1174px;
+  height: 770px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 229, 235, 1);
+}
+.signuppage-image21 {
+  top: 53px;
+  left: 491px;
+  width: 297px;
+  height: 91px;
+  position: absolute;
+}
+.signuppage-signin-button {
+  top: 672px;
+  left: 482px;
+  width: 313.96722412109375px;
+  height: 41.31147384643555px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(248, 200, 220, 1);
+}
+.signuppage-text {
+  top: 10.705078125px;
+  left: 116.96728515625px;
+  color: rgba(255, 255, 255, 1);
+  width: 80px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.signuppage-email-form {
+  top: 163px;
+  left: 481px;
+  width: 315px;
+  height: 68.77044677734375px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.signuppage-rectangle3 {
+  top: 27.45897674560547px;
+  left: 1.0327868461608887px;
+  width: 314px;
+  height: 41px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 0.25);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+}
+.signuppage-text02 {
+  top: 38.81982421875px;
+  left: 11.19677734375px;
+  color: rgba(98, 98, 99, 1);
+  width: 138px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Light;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.signuppage-text04 {
+  color: rgba(24, 24, 24, 1);
+  width: 105px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.signuppage-email-form1 {
+  top: 243px;
+  left: 481px;
+  width: 315px;
+  height: 68.77044677734375px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.signuppage-rectangle31 {
+  top: 27.45897674560547px;
+  left: 1.0327868461608887px;
+  width: 314px;
+  height: 41px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 0.25);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+}
+.signuppage-text06 {
+  top: 38.81982421875px;
+  left: 11.19677734375px;
+  color: rgba(98, 98, 99, 1);
+  width: 138px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Light;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.signuppage-text08 {
+  color: rgba(24, 24, 24, 1);
+  width: 105px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.signuppage-email-form2 {
+  top: 323px;
+  left: 481px;
+  width: 315px;
+  height: 68.77044677734375px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.signuppage-rectangle32 {
+  top: 27.45897674560547px;
+  left: 1.0327868461608887px;
+  width: 314px;
+  height: 41px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 0.25);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+}
+.signuppage-text10 {
+  top: 39px;
+  left: 11px;
+  color: rgba(98, 98, 99, 1);
+  width: 193px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Light;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.signuppage-text12 {
+  color: rgba(24, 24, 24, 1);
+  width: 105px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.signuppage-email-form3 {
+  top: 403px;
+  left: 481px;
+  width: 315px;
+  height: 68.77044677734375px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.signuppage-rectangle33 {
+  top: 27.45897674560547px;
+  left: 1.0327868461608887px;
+  width: 314px;
+  height: 41px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 0.25);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+}
+.signuppage-text14 {
+  top: 39px;
+  left: 11px;
+  color: rgba(98, 98, 99, 1);
+  width: 193px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Light;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.signuppage-text16 {
+  color: rgba(24, 24, 24, 1);
+  width: 105px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.signuppage-password-form {
+  top: 483px;
+  left: 482px;
+  width: 313.96722412109375px;
+  height: 69.19672393798828px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.signuppage-rectangle34 {
+  top: 27.88524627685547px;
+  left: 0px;
+  width: 314px;
+  height: 41px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 0.25);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+}
+.signuppage-text18 {
+  top: 39.24590301513672px;
+  left: 5.163934230804443px;
+  color: rgba(98, 98, 99, 1);
+  width: 94px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Light;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.signuppage-text20 {
+  color: rgba(24, 24, 24, 1);
+  width: 74px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.signuppage-password-form1 {
+  top: 563px;
+  left: 482px;
+  width: 313.96722412109375px;
+  height: 69.19672393798828px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.signuppage-rectangle35 {
+  top: 27.88524627685547px;
+  left: 0px;
+  width: 314px;
+  height: 41px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 0.25);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+}
+.signuppage-text22 {
+  top: 39.24590301513672px;
+  left: 5.163934230804443px;
+  color: rgba(98, 98, 99, 1);
+  width: 94px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Light;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.signuppage-text24 {
+  color: rgba(24, 24, 24, 1);
+  width: 162px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.signuppage-text26 {
+  top: 730px;
+  left: 535px;
+  color: rgba(89, 89, 89, 1);
+  width: 216px;
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.signuppage-text27 {
+  color: rgba(89, 89, 89, 1);
+}
+.signuppage-text28 {
+  color: rgba(0, 0, 0, 1);
+}

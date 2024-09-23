@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inria Sans;
+    background-color: #F8C8DC;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    width : 100%;
+    text-decoration: none;
+}
+
+.header {
+    background-color: #A7C7E7;
+    padding: 10px;
+    text-align: center;
+}
+
+.header img {
+    width: 3vw;
+    height: 3vw;
+    position: absolute;
+    right: 4%;
+}
+
+.page-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3vw;
+    font-weight: 400;
+    margin-left: 4%;
+    margin-top: 2.5vh;
+    word-wrap: break-word;
+}
+
+.user-name-style {
+    font-size: 2.0vw;
+    font-weight: bold;
+    color: #ffe4ff;
+    text-align: center;
+    margin-top: 1vw;
+}
+
+.average-hours-style {
+    font-size: 1.5vw;
+    color: #000000;
+    text-align: center;
+    margin-bottom:2vw;
+    font-weight: lighter;
+    white-space: nowrap;
+}
+
+.average-hours-style::before {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    content: "Average hours worked: ";
+}
+
+.average-hours-style::after {
+    color: rgb(0, 0, 0);
+    content: " hours";
+}
+
+.container {
+    width: 80%;
+    position: relative;
+}
+
+:root 
+{
+    --dark-body: #4d4c5a;
+    --dark-main: #141529;
+    --dark-second: #79788c;
+    --dark-hover: #323048;
+    --dark-text: #f8fbff;
+    --light-body: #FFE5EC;
+    --light-main: #FFE5EC;
+    --light-second: #c3c2c8;
+    --light-hover: #F8C8DC;
+    --light-text: #151426;
+    --blue: #F8C8DC;
+    --white: #fff;
+    --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    --font-family: cursive;
+}
+.light {
+    --bg-body: var(--light-body);
+    --bg-main: var(--light-main);
+    --bg-second: var(--light-second);
+    --color-hover: var(--light-hover);
+    --color-txt: var(--light-text);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.button3 {
+    display: inline-block;
+    border-radius: 0.25vw;
+    background-color: #FFE5EC;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 1vw;
+    padding: 0.4vw;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 0.1vw #999;
+    position: absolute;
+    bottom: -1.5vw;
+    left: 0;
+    transform: translateY(100%);
+    font-family: Inria Sans;
+  }
+  
+  .button3 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button3 span:after {
+    content: '\00ab';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -0.2vw;
+    transition: 0.5s;
+  }
+  .button3:hover {background-color: #ffa6c1}
+  .button3:hover span {
+    padding-left: 0.75vw;
+    padding-right: 0;
+  }
+  
+  .button3:hover span:after {
+    opacity: 1;
+    left: 0;
+  }

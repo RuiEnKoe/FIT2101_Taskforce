@@ -1,0 +1,35 @@
+/* Increase the size of the select box */
+select {
+    font-size: 16px; /* Adjust the font size as needed */
+    padding: 10px; /* Add padding for spacing */
+    width: 200px; /* Adjust the width as needed */
+    background-color: #FFC0CB; /* Pink background color */
+    border: 1px solid #FFC0CB; /* Pink border color */
+    border-radius: 5px; /* Rounded corners */
+    color: black; /* Text color */
+  }
+  
+  /* Remove the default select arrow */
+  select::-ms-expand,
+  select::-webkit-select {
+    display: none;
+  }
+  
+  /* Style the title "Priority" */
+  label[for="Priority"] {
+    font-size: 30px; /* Adjust the font size as needed */
+    margin-bottom: 10px; /* Add space below the title */
+    font-family: serif; /* Use a serif font */
+    color: black; /* Text color */
+    font-weight: bold; /* Bold the title */
+    text-align: center; /* Center-align the title */
+    font-family: sans-serif; /* Use a sans-serif font for the title */
+  }
+  
+  /* Style the options within the select with a sans-serif font */
+  select option {
+    background-color: white; /* Background color of options */
+    color: black; /* Text color of options */
+    text-align: center; /* Center-align the text (options) */
+    font-family: sans-serif; /* Use a sans-serif font for options */
+  }

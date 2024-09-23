@@ -1,0 +1,472 @@
+.backlog-after-delete-project-inception-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.backlog-after-delete-project-inception-backlog-after-delete-project-inception {
+  width: 100%;
+  height: 832px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(248, 200, 220, 1);
+}
+.backlog-after-delete-project-inception-group18 {
+  top: 198px;
+  left: 380px;
+  width: 270px;
+  height: 43px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.backlog-after-delete-project-inception-rectangle3 {
+  top: 0px;
+  left: 0px;
+  width: 270px;
+  height: 43px;
+  position: absolute;
+  border-radius: 10px;
+}
+.backlog-after-delete-project-inception-text {
+  top: 7px;
+  left: 10px;
+  color: rgba(0, 0, 0, 1);
+  width: 250px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.backlog-after-delete-project-inception-rectangle1 {
+  top: 0px;
+  left: 0px;
+  width: 1280px;
+  height: 124px;
+  position: absolute;
+}
+.backlog-after-delete-project-inception-text02 {
+  top: 43px;
+  left: 47px;
+  color: rgba(0, 0, 0, 1);
+  width: 570px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Josefin Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.backlog-after-delete-project-inception-group10 {
+  top: 532px;
+  left: 84px;
+  width: 270px;
+  height: 170px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.backlog-after-delete-project-inception-group2 {
+  top: 0px;
+  left: 0px;
+  width: 270px;
+  height: 170px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.backlog-after-delete-project-inception-rectangle31 {
+  top: 0px;
+  left: 0px;
+  width: 270px;
+  height: 170px;
+  position: absolute;
+  border-radius: 10px;
+}
+.backlog-after-delete-project-inception-text04 {
+  top: 26px;
+  left: 10px;
+  color: rgba(0, 0, 0, 1);
+  width: 250px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.backlog-after-delete-project-inception-text06 {
+  top: 89px;
+  left: 10px;
+  color: rgba(104, 104, 104, 1);
+  width: 155px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.backlog-after-delete-project-inception-text08 {
+  top: 113px;
+  left: 10px;
+  color: rgba(104, 104, 104, 1);
+  width: 155px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.backlog-after-delete-project-inception-group9 {
+  top: 11px;
+  left: 11px;
+  width: 74px;
+  height: 15px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.backlog-after-delete-project-inception-ellipse6 {
+  top: 4px;
+  left: 0px;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+}
+.backlog-after-delete-project-inception-text15 {
+  left: 18px;
+  color: rgba(104, 104, 104, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.backlog-after-delete-project-inception-image3 {
+  top: 30px;
+  left: 1136px;
+  width: 65px;
+  height: 65px;
+  position: absolute;
+}
+.backlog-after-delete-project-inception-image5 {
+  top: 143px;
+  left: 326px;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+}
+.backlog-after-delete-project-inception-image6 {
+  top: 142px;
+  left: 1201px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.backlog-after-delete-project-inception-group25 {
+  top: 198px;
+  left: 84px;
+  width: 270px;
+  height: 149px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.backlog-after-delete-project-inception-group21 {
+  top: 0px;
+  left: 0px;
+  width: 270px;
+  height: 149px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.backlog-after-delete-project-inception-group15 {
+  top: 0px;
+  left: 0px;
+  width: 270px;
+  height: 149px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.backlog-after-delete-project-inception-rectangle32 {
+  top: 0px;
+  left: 0px;
+  width: 270px;
+  height: 149px;
+  position: absolute;
+  border-radius: 10px;
+}
+.backlog-after-delete-project-inception-text17 {
+  top: 25px;
+  left: 9px;
+  color: rgba(0, 0, 0, 1);
+  width: 250px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.backlog-after-delete-project-inception-text19 {
+  top: 69px;
+  left: 9px;
+  color: rgba(104, 104, 104, 1);
+  width: 155px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.backlog-after-delete-project-inception-text21 {
+  top: 93px;
+  left: 10px;
+  color: rgba(104, 104, 104, 1);
+  width: 155px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.backlog-after-delete-project-inception-group91 {
+  top: 8px;
+  left: 10px;
+  width: 57px;
+  height: 15px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.backlog-after-delete-project-inception-ellipse61 {
+  top: 4px;
+  left: 0px;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+}
+.backlog-after-delete-project-inception-text28 {
+  left: 18px;
+  color: rgba(104, 104, 104, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.backlog-after-delete-project-inception-group24 {
+  top: 361px;
+  left: 84px;
+  width: 270px;
+  height: 157px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.backlog-after-delete-project-inception-ellipse5 {
+  top: 13px;
+  left: 12px;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+}
+.backlog-after-delete-project-inception-group20 {
+  top: 0px;
+  left: 0px;
+  width: 270px;
+  height: 157px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.backlog-after-delete-project-inception-group16 {
+  top: 0px;
+  left: 0px;
+  width: 270px;
+  height: 157px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.backlog-after-delete-project-inception-rectangle33 {
+  top: 0px;
+  left: 0px;
+  width: 270px;
+  height: 157px;
+  position: absolute;
+  border-radius: 10px;
+}
+.backlog-after-delete-project-inception-text30 {
+  top: 25px;
+  left: 9px;
+  color: rgba(0, 0, 0, 1);
+  width: 250px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.backlog-after-delete-project-inception-text32 {
+  top: 69px;
+  left: 9px;
+  color: rgba(104, 104, 104, 1);
+  width: 155px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.backlog-after-delete-project-inception-text34 {
+  top: 93px;
+  left: 10px;
+  color: rgba(104, 104, 104, 1);
+  width: 155px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.backlog-after-delete-project-inception-group23 {
+  top: 9px;
+  left: 10px;
+  width: 57px;
+  height: 15px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.backlog-after-delete-project-inception-ellipse62 {
+  top: 4px;
+  left: 0px;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+}
+.backlog-after-delete-project-inception-text43 {
+  left: 18px;
+  color: rgba(104, 104, 104, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.backlog-after-delete-project-inception-image3253254388checklistlogobwchecklistpngtranspar {
+  top: 147px;
+  left: 1095px;
+  width: 33px;
+  height: 31px;
+  position: absolute;
+}
+.backlog-after-delete-project-inception-image11 {
+  top: 148px;
+  left: 1146px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.backlog-after-delete-project-inception-image12 {
+  top: 150px;
+  left: 1044px;
+  width: 36px;
+  height: 25px;
+  position: absolute;
+}
+.backlog-after-delete-project-inception-image13 {
+  top: 152px;
+  left: 990px;
+  width: 32px;
+  height: 23px;
+  position: absolute;
+}

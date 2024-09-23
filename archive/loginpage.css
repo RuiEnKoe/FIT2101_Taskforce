@@ -1,0 +1,305 @@
+.loginpage-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.loginpage-loginpage {
+  width: 100%;
+  height: 832px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(248, 200, 220, 1);
+}
+.loginpage-group12 {
+  top: 31px;
+  left: 52px;
+  width: 1174px;
+  height: 770px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 229, 235, 1);
+}
+.loginpage-image21 {
+  top: 133px;
+  left: 491px;
+  width: 297px;
+  height: 91px;
+  position: absolute;
+}
+.loginpage-text {
+  top: 633px;
+  left: 531px;
+  color: rgba(89, 89, 89, 1);
+  width: 216px;
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.loginpage-text01 {
+  color: rgba(89, 89, 89, 1);
+}
+.loginpage-text02 {
+  color: rgba(0, 0, 0, 1);
+}
+.loginpage-signin-button {
+  top: 575.2950439453125px;
+  left: 482.03271484375px;
+  width: 313.96722412109375px;
+  height: 41.31147384643555px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(248, 200, 220, 1);
+}
+.loginpage-text04 {
+  top: 11.360655784606934px;
+  left: 131.16392517089844px;
+  color: rgba(255, 255, 255, 1);
+  width: 52px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.loginpage-email-form {
+  top: 364px;
+  left: 481px;
+  width: 315px;
+  height: 68.77044677734375px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.loginpage-rectangle3 {
+  top: 27.45897674560547px;
+  left: 1.0327868461608887px;
+  width: 314px;
+  height: 41px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 0.25);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+}
+.loginpage-text06 {
+  top: 38.81963348388672px;
+  left: 6.196721076965332px;
+  color: rgba(98, 98, 99, 1);
+  width: 138px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Light;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.loginpage-text08 {
+  color: rgba(24, 24, 24, 1);
+  width: 105px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.loginpage-password-form {
+  top: 454.458984375px;
+  left: 482.03271484375px;
+  width: 313.96722412109375px;
+  height: 69.19672393798828px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.loginpage-rectangle31 {
+  top: 27.88524627685547px;
+  left: 0px;
+  width: 314px;
+  height: 41px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 0.25);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+}
+.loginpage-text10 {
+  top: 39.24590301513672px;
+  left: 5.163934230804443px;
+  color: rgba(98, 98, 99, 1);
+  width: 94px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Light;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.loginpage-text12 {
+  color: rgba(24, 24, 24, 1);
+  width: 74px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.loginpage-headline {
+  top: 251px;
+  left: 482.03271484375px;
+  width: 313.96722412109375px;
+  height: 75.39344024658203px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.loginpage-text14 {
+  color: rgba(3, 3, 3, 1);
+  width: 290px;
+  height: auto;
+  position: absolute;
+  font-size: 34px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.loginpage-text16 {
+  top: 53.704917907714844px;
+  color: rgba(98, 98, 99, 1);
+  width: 314px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.loginpage-remember-forgot {
+  top: 545.34423828125px;
+  left: 507.8525390625px;
+  width: 288.1475524902344px;
+  height: 18.590164184570312px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.loginpage-text18 {
+  left: 177.6393585205078px;
+  color: rgba(24, 24, 24, 1);
+  width: 111px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.loginpage-text20 {
+  color: rgba(24, 24, 24, 1);
+  width: 98px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.loginpage-controller {
+  top: 543px;
+  left: 482px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.loginpage-thumb {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(97, 97, 97, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  justify-content: center;
+  background-color: var(--dl-color-default-white);
+}
+.loginpage-icon {
+  width: 2px;
+  height: 2px;
+  display: flex;
+  opacity: 0.00;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.loginpage-color {
+  top: 0.576171875px;
+  left: 0.4148406982421875px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}

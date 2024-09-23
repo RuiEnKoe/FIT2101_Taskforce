@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inria Sans;
+    background-color: #F8C8DC;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    width : 100%;
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+}
+
+.header {
+    margin-top: 12vh;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size:2.5vh;
+}
+
+.container {
+    background-color: #FFF3FE;
+    padding: 0.7vw;
+    border-radius: 0.25vw;
+    box-shadow: 0 0.35vw 0.7vw rgba(0, 0, 0, 0.1);
+    width: 15%;
+    text-align: center;
+    margin-top: 25vh;
+    z-index: 3;
+    position: relative;
+}
+
+.button3 {
+  display: inline-block;
+  border-radius: 0.25vw;
+  background-color: #FFE5EC;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 1vw;
+  padding: 0.4vw;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 0.1vw #999;
+  position: absolute;
+  bottom: -1.5vw;
+  left: 0;
+  transform: translateY(100%); 
+}
+
+.button3 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button3 span:after {
+  content: '\00ab';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -0.2vw;
+  transition: 0.5s;
+}
+.button3:hover {background-color: #ffa6c1}
+.button3:hover span {
+  padding-left: 0.75vw;
+  padding-right: 0;
+}
+
+.button3:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+
+.button4 {
+  display: none;
+  border-radius: 0.25vw;
+  background-color: #FFE5EC;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 1vw;
+  padding: 0.4vw;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 0.1vw #999;
+  position: absolute;
+  bottom: -1.5vw;
+  right: 0;
+  transform: translateY(100%); 
+}
+
+.button4 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button4 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -0.2vw;
+  transition: 0.5s;
+}
+.button4:hover {background-color: #ffa6c1}
+.button4:hover span {
+  padding-left: 0;
+  padding-right: 0.75vw;
+}
+
+.button4:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.user-card {
+  /* Add your styling here */
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+
+.bottom-navbar {
+  width: 100%;
+  background-color: #333; /* Dark background for visibility */
+  overflow: auto; /* To contain floated elements */
+  position: fixed; /* Fixed position */
+  bottom: 0; /* Position it at the bottom */
+  left: 0;
+  z-index: 1000; /* High z-index to ensure it stays on top of other elements */
+}
+
+.bottom-navbar a {
+  float: left; /* To align horizontally */
+  display: block;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  color: white;
+}
+
+.bottom-navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}

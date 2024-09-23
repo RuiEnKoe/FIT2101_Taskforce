@@ -1,0 +1,436 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inria Sans;
+    background-color: #F8C8DC;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    width : 100%;
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+}
+
+:root 
+{
+    --dark-body: #4d4c5a;
+    --dark-main: #141529;
+    --dark-second: #79788c;
+    --dark-hover: #323048;
+    --dark-text: #f8fbff;
+    --light-body: #FFE5EC;
+    --light-main: #FFE5EC;
+    --light-second: #c3c2c8;
+    --light-hover: #F8C8DC;
+    --light-text: #151426;
+    --blue: #F8C8DC;
+    --white: #fff;
+    --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    --font-family: cursive;
+}
+.light {
+    --bg-body: var(--light-body);
+    --bg-main: var(--light-main);
+    --bg-second: var(--light-second);
+    --color-hover: var(--light-hover);
+    --color-txt: var(--light-text);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.calendar {
+    height: max-content;
+    width: max-content;
+    background-color: var(--bg-main);
+    border-radius: 1vw;
+    padding: 0.5vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.light .calendar {
+    box-shadow: var(--shadow);
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: var(--color-txt);
+    padding: .5vw;
+}
+
+.calendar-body {
+    padding: .5vw;
+}
+
+.calendar-week-day {
+    height: 2vh;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    font-weight: 600;
+    color: var(--color-txt);
+    margin-bottom: 1.5vh;
+}
+
+.calendar-week-day div {
+    display: grid;
+    place-items: center;
+    color: var(--bg-second);
+}
+
+.calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: .5vw;
+    color: var(--color-txt);
+    position: center;
+}
+
+.calendar-days div {
+    width: 4vh;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5vw;
+    position: relative;
+    cursor: pointer;
+    animation: to-top 1s forwards;
+}
+
+.calendar-days div span {
+    position: absolute;
+}
+
+
+.calendar-days div span:nth-child(1),
+.calendar-days div span:nth-child(3) {
+    width: 2px;
+    height: 0;
+    background-color: var(--color-txt);
+}
+
+
+.calendar-days div span:nth-child(1) {
+    bottom: 0;
+    left: 0;
+}
+
+.calendar-days div span:nth-child(3) {
+    top: 0;
+    right: 0;
+}
+
+.calendar-days div span:nth-child(2),
+.calendar-days div span:nth-child(4) {
+    width: 0;
+    height: 2px;
+    background-color: var(--color-txt);
+}
+
+
+.calendar-days div span:nth-child(2) {
+    top: 0;
+    left: 0;
+}
+
+.calendar-days div span:nth-child(4) {
+    bottom: 0;
+    right: 0;
+}
+
+.calendar-day-hover.has-date:hover {
+    background-color: pink;
+    border-radius: 50%;
+}
+
+.calendar-days div span {
+    position: absolute;
+}
+
+.calendar-days div:hover span {
+    transition: width 0.2s ease-in-out, height 0.2s ease-in-out;
+}
+
+.calendar-days div.curr-date span {
+    display: none;
+}
+
+.month-picker {
+    padding: 0.25vw;
+    border-radius: 0.25vw;
+    cursor: pointer;
+}
+
+.month-picker:hover {
+    background-color: var(--color-hover);
+}
+
+.year-picker {
+    display: flex;
+    align-items: center;
+}
+
+.year-change {
+    height: 4vh;
+    width: 4vh;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.year-change:hover {
+    background-color: var(--color-hover);
+}
+
+.calendar-footer {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.toggle {
+    display: flex;
+}
+
+.toggle span {
+    margin-right: 10px;
+    color: var(--color-txt);
+}
+
+.month-list {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--bg-main);
+    padding: .5vw;
+    grid-template-columns: repeat(3, auto);
+    gap: 0.5vw;
+    display: grid;
+    transform: scale(1.5);
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.month-list.show {
+    transform: scale(1);
+    visibility: visible;
+    pointer-events: visible;
+    transition: all 0.2s ease-in-out;
+}
+
+.month-list > div {
+    display: grid;
+    place-items: center;
+}
+
+.month-list > div > div {
+    width: 100%;
+    padding: 0.25vw 0.5vw;
+    border-radius: 0.5vw;
+    text-align: center;
+    cursor: pointer;
+    color: var(--color-txt);
+}
+
+.month-list > div > div:hover {
+    background-color: var(--color-hover);
+}
+
+.selected-start {
+    background-color: #F8C8DC; /* Pink color */
+    border-radius: 50%;
+    color: white
+  }
+
+.selected-end {
+    background-color: #F8C8DC; /* Pink color */
+    border-radius: 50%;
+    color: white
+  }
+
+#calendar-container {
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+padding: 2vh 0;
+}
+
+#start-calendar,
+#end-calendar {
+width: calc(50% - 1vw);
+margin: 0.5vw;
+box-sizing: border-box;
+}
+
+.calendar-day-hover.selected {
+background-color: pink;
+border-radius: 50%;
+}
+  
+
+.selected-range {
+    color: #f668a3
+  }
+
+.selected {
+background-color: pink;  
+border-radius: 50%;  
+color: #fff;  
+}
+
+.selected-start {
+background-color: #4CAF50;  
+}
+
+.selected-end {
+background-color: #f44336;  
+}
+
+.selected-range {
+background-color: #ccc; 
+}
+
+.month-picker-modal {
+display: none;
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0,0,0,0.7);
+z-index: 1;
+}
+
+.month-picker-content {
+background-color: #F8C8DC;
+margin: 15% auto;
+padding: 20px;
+width: 80%;
+border-radius: 12px;
+}
+.month-element:hover {
+    background-color: #f668a3; 
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.month-picker-close {
+color: #aaa;
+float: right;
+font-size: 1vw;
+font-weight: bold;
+}
+
+.month-picker-close:hover,
+.month-picker-close:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+
+.button3 {
+    display: inline-block;
+    border-radius: 0.25vw;
+    background-color: #FFE5EC;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 1vw;
+    font-family: Imprima;
+    padding: 0.4vw;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 0.1vw #999;
+    }
+
+.button3 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button3 span:after {
+    content: '\00bb'; /* Right-pointing double angle quotation mark */
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -0.2vw; /* Positioned to the right */
+    transition: 0.5s;
+}
+
+.button3:hover {background-color: #ffa6c1}
+
+.button3:hover span {
+    padding-right: 0.75vw; /* Adjust the right padding */
+    padding-left: 0;
+}
+
+.button3:hover span:after {
+    opacity: 1;
+    right: 0; /* Shift the arrow to the right on hover */
+}
+
+.button4 {
+    display: inline-block;
+    border-radius: 0.25vw;
+    background-color: #FFE5EC;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 1vw;
+    font-family: Imprima;
+    padding: 0.4vw;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 0.1vw #999;
+    }
+
+.button4 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button4 span:after {
+    content: '\00ab'; /* Right-pointing double angle quotation mark */
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -0.2vw; /* Positioned to the right */
+    transition: 0.5s;
+}
+
+.button4:hover {background-color: #ffa6c1}
+
+.button4:hover span {
+    padding-left: 0.75vw; /* Adjust the right padding */
+    padding-right: 0;
+}
+
+.button4:hover span:after {
+    opacity: 1;
+    left: 0; /* Shift the arrow to the right on hover */
+}

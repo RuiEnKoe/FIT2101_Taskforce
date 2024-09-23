@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Product Backlog</title>
+    <link rel="stylesheet" href="styles/prodBacklogCardView.css">
+    <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-auth-compat.js"></script>
+    <script src="./scripts/prodBacklogView.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap" data-tag="font"/>
+</head>
+<body>
+    <div class="BacklogList" style="width: 100%; position: absolute; background: #F8C8DC">
+    <div class="Rectangle1" style="width: 100%; height: 10vh; top:0; left:0 ;position: absolute; background: #A7C7E7"></div>
+    <a href = "user.html", title = "User Details">
+        <img class="Image3" style="width: 3vw; height: 3vw; position: absolute; right: 4%; top: 2vh" src="Icons/310818.png" />
+    </a>
+    <a href = "index.html", title = "List View">
+        <img class="ChangeView" style="width: 3vw; height: 3vw; position: absolute; right: 5%; top: 12vh" src="Icons/card_list_icon_160312 (1).png" />
+    </a>
+    <div class="BacklogItems" style="width: 50%; position: absolute; left: 4%; top: 2.5vh; color: black; font-size: 3vw; font-family: Josefin Sans; font-weight: 400; word-wrap: break-word">Backlog Items</div>
+    </div>
+    <!-- Container for cards -->
+    <div class="container">
+        <div id="RectangleFilter"style="width: 65%; margin-top:13vh; height: 4vh;position: absolute; border-radius: 0.5vw;background: #ffa6c1">
+            <div id="filterTags" style="margin-left:0.8vw;margin-top: 2vh; margin-bottom: 2vh;font-size: 1vw; text-align: center; flex-wrap: wrap;align-items: center;">
+                <strong>Filter by Tags:</strong><br/>
+                <input id="Front-End" type="checkbox" value="Front-End" style="height: 0.6vw; width: 0.6vw;"/>
+                <label for="Front-End">Front-End</label><br/>
+                <input id="Back-End" type="checkbox" value="Back-End" style="height: 0.6vw; width: 0.6vw;"/>
+                <label for="Back-End">Back-End</label><br/>
+                <input id="UI/UX" type="checkbox" value="UI/UX" style="height: 0.6vw; width: 0.6vw;"/>
+                <label for="UI/UX">UI/UX</label><br/>
+                <input id="Database" type="checkbox" value="Database" style="height: 0.6vw; width: 0.6vw;"/>
+                <label for="Database">Database</label><br/>
+                <input id="API" type="checkbox" value="API" style="height: 0.6vw; width: 0.6vw;"/>
+                <label for="API">API</label><br/>
+                <input id="Framework" type="checkbox" value="Framework" style="height: 0.6vw; width: 0.6vw;"/>
+                <label for="Framework">Framework</label><br/>
+                <input id="Testing" type="checkbox" value="Testing" style="height: 0.6vw; width: 0.6vw;"/>
+                <label for="Testing">Testing</label><br/>
+            </div>
+        </div>
+        <div class ="header">
+        </div>
+
+        <div id="cardContainer"></div>
+
+        <br>
+
+        <a href="prodBacklogAddTask.html">
+            <center>
+                <button4 class="button4">+ Add a Task</button4>
+            </center>
+        </a>
+        
+        <div class="bottom-navbar">
+            <a href="index.html">Product Backlog</a>
+            <a href="SprintViewListView.html">Sprint View</a>
+            <a href="SprintManagement.html">Sprint management</a>
+        </div>
+
+    </div>
+    
+</body>
+</html>

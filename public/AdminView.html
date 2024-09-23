@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Admin View</title>
+  <link rel="stylesheet" href="styles/AdminView.css">
+  <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-auth-compat.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="./scripts/adminView.js" defer></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap" data-tag="font"/>
+</head>
+<body>
+<div class="BacklogList" style="width: 100%; position: absolute; background: #F8C8DC">
+  <div class="Rectangle1" style="width: 100%; height: 10vh; top:0; left:0 ;position: absolute; background: #A7C7E7"></div>
+  <a href = "user.html", title = "User Details">
+    <img class="Image3" style="width: 3vw; height: 3vw; position: absolute; right: 4%; top: 2vh" src="Icons/310818.png" />
+  </a>
+  <a href = "adminDateSelection.html", title = "Admin Overall Contribution">
+    <img class="ChangeView" style="width: 3vw; height: 3vw; position: absolute; right: 5%; top: 12vh" src="Icons/overallContribution.png" />
+  </a>
+  <a href = "AdminView.html", title = "Admin View">
+    <img class="ChangeView" style="width: 3vw; height: 3.2vw; position: absolute; right: 9%; top: 12.3vh" src="Icons/users.png" />
+  </a>
+  <div class="BacklogItems" style="width: 50%; position: absolute; left: 4%; top: 2.5vh; color: black; font-size: 3vw; font-family: Josefin Sans; font-weight: 400; word-wrap: break-word">Admin View</div>
+</div>
+<!-- Container for cards -->
+<div class="dashboard">
+
+  <!-- Sidebar for user data -->
+  <div class="sidebar">
+    <!-- User data will be populated here by JavaScript -->
+  </div>
+
+  <!-- Placeholder for future barchart -->
+  <div class="chartPlaceholder">
+    <img id="closeButton" src="Icons/cross.png" style="width: 1.5vw; height: 1vw; position: relative; cursor: pointer; display: none;" onclick="closeTheChart()">
+    <canvas id="myChart" style="width: 100%; height: 40vh; position: absolute"></canvas>
+  </div>
+
+</div>
+
+<div>
+  <button onclick="goBack()" style="cursor: pointer;">
+    <button3 class="button3" style="width: 4vw; height: 2vw; left: 11%; bottom: 12vh; position: absolute;vertical-align:middle"><span>Back</span></button3>
+  </button>
+</div>
+<a href="register.html">
+  <button4 class="button4" style="width: 6vw; height: 2vw; left: 16%; bottom: 12vh; position: absolute;vertical-align:middle">+ Add User</button4>
+</a>
+
+<div class="bottom-navbar" style=>
+  <a href="adminDateSelection.html">Overall Contribution</a>
+  <a href="AdminView.html">Individual Contribution</a>
+</div>
+
+</body>
+</html>

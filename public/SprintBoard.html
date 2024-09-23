@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Sprint Board</title>
+  <link rel="stylesheet" href="styles/SprintBoard.css">
+  <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-auth-compat.js"></script>
+  <script src="./scripts/sprintBoard.js" defer></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap" data-tag="font"/>
+</head>
+<body>
+<div class="BacklogList" style="width: 100%; position: absolute; background: #F8C8DC">
+  <div class="Rectangle1" style="width: 100%; height: 10vh; top:0; left:0 ;position: absolute; background: #A7C7E7"></div>
+
+
+  <a href = "user.html", title = "User Details">
+    <img class="Image3" style="width: 3vw; height: 3vw; position: absolute; right: 4%; top: 2vh" src="Icons/310818.png" />
+  </a>
+  <!-- <a href = "SprintViewListView.html", title = "Sprint Board">
+      <img class="sprintBoard" style="width: 3vw; height: 3vw; position: absolute; right: 5%; top: 12vh" src="Icons/kanbanboard.png" />
+  </a> -->
+  <a id="sprintChartLink" href="sprintChart.html", title = "Charts">
+      <img class="sprintChart" style="width: 3.5vw; height: 3vw; position: absolute; right: 5%; top: 12vh" src="Icons/graph.png" />
+  </a>
+  <div class="BacklogItems" style="width: 50%; position: absolute; left: 4%; top: 2.5vh; color: black; font-size: 3vw; font-family: Josefin Sans; font-weight: 400; word-wrap: break-word">Sprint Board</div>
+</div>
+<!-- Container for cards -->
+<div class="container">
+  <div class ="header">
+    <div class = "headNS">
+        Not Started
+    </div>
+    <div class = "headIP">
+        In Progress
+    </div>
+    <div class = "headC">
+      Completed
+  </div>
+  </div>
+  <div style="display: flex; width: 100%; height: 60vh; margin-top: 4vh;">
+
+    <!-- Left card container -->
+    <div id="leftCardContainer" ondragover="allowDrop(event)" ondrop="drop(event)" style=" margin-top: 1.8vh;margin-left: 2%;height: 90%; overflow-y: auto; border-radius: 0.5vw;background-color: #FFF3FE; text-decoration: none; width: 45%; padding-left: 1%; padding-top: 1%;"></div>
+  
+    <div id="middleCardContainer"ondragover="allowDrop(event)" ondrop="drop(event)" style="margin-top: 1.8vh;height: 90%; margin-left: 5%;overflow-y: auto; border-radius: 0.5vw;background-color: #FFF3FE; text-decoration: none; width: 45%; padding-left: 1%; padding-top: 1%;"></div>
+
+    <div id="rightCardContainer"ondragover="allowDrop(event)" ondrop="drop(event)" style="margin-top: 1.8vh;height: 90%; margin-left: 5%;margin-right:2%;overflow-y: auto; border-radius: 0.5vw;background-color: #FFF3FE; text-decoration: none; width: 45%; padding-left: 1%; padding-top: 1%;"></div>
+  
+  </div>
+</div>
+<button4 onclick="startSprint()" class="button4" style="width: 9%; height: 3vw; position: absolute;bottom:6vh;left: 30%;">Start Sprint</button4>
+<button4 onclick="goBack()" class="button4" style="width: 9%; height: 3vw; position: absolute;bottom:6vh;left: 45%;">Save & Quit</button4>
+<button4 onclick="endSprint()" class="button4" style="width: 9%; height: 3vw; position: absolute;bottom:6vh;left: 60%;">End Sprint</button4>
+<button3 onclick="deleteSprint()" class="button3" style="width: 9%; height: 3vw; position: absolute;bottom:6vh;right: 4%;">Delete</button3>
+<div id="statusContainer" style="background-color: #ffa6c1; padding: 1vh; border-radius: 0.5vw; text-align: center;position:absolute;top: 13vh; font-size: 1.25vw;left:4%;"> </div>
+
+</body>
+</html>

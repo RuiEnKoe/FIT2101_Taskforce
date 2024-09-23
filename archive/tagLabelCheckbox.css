@@ -1,0 +1,41 @@
+
+
+/* Style the title 'Tag Label' */
+legend h1 {
+    color: black;
+  }
+  
+  /* Style each option (label) */
+  label {
+    color: darkgrey;
+    display: block;
+    border: 1px solid darkgrey; /* Add a border around each option */
+    border-radius: 5px; /* Rounded corners */
+
+    padding: 10px; /* Add padding for spacing */
+    margin: 10px 0; /* Add margin for spacing */
+  }
+
+  label::after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+    border: 1px solid pink; /* Color of the border inside */
+    border-radius: 4px; /* Slightly smaller radius for inner border */
+    pointer-events: none; /* Ensure the inner border doesn't interfere with clicks */
+  }
+  
+  /* Style the checkboxes */
+  input[type="checkbox"] {
+    transform: scale(1.5); /* Make the checkboxes 1.5 times bigger */
+    margin-right: 5px; /* Add some space between the checkbox and the label */
+    color: #ff99cc; /* Change the color of the checkboxes */
+  }
+  
+  input[type="checkbox"]:checked + label {
+    background-color: #ff99cc; /* Change the background color for checked checkboxes */
+    color: black; /* Change the label text color for checked checkboxes */
+  }

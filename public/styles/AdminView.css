@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inria Sans;
+    background-color: #F8C8DC;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+    overflow-x: hidden; /* Prevent scrolling to the right */
+}
+
+body {
+    background-image: url('../Icons/BackgroundImage.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed; /* Optional: this will ensure the image stays in place when the content is scrolled. */
+    z-index: -1;
+}
+
+.container {
+    padding-bottom: 50px; /* Change to the actual height of your navbar */
+}
+
+.user-name-style {
+    font-size: 1.3vw;
+    font-weight: bold;
+    color: #d27aaa;
+    text-align: left;
+    margin-top: 1vw;
+}
+
+.email-style {
+    font-size: 1.15vw;
+    color: #000000;
+    text-align: left;
+    margin-bottom:0.4vh;
+    font-weight: lighter;
+    white-space: nowrap;
+}
+
+.email-style::before {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    content: "Email: ";
+}
+  
+.contribution-style {
+    font-size: 1.15vw;
+    color: #000000;
+    text-align: left;
+    margin-bottom:0.4vh;
+    font-weight: lighter;
+    white-space: nowrap;
+}
+
+.contribution-style::before {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    content: "Contribution Time: ";
+}
+
+.dashboard {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    margin-top: 17vh;
+    padding: 20px;
+  }
+  
+.sidebar {
+    flex: 1;
+    background-color: #F8C8DC;
+    padding: 20px;
+    overflow-y: auto;
+    border-top-left-radius: 20px; /* Adjust the radius as needed */
+    border-bottom-left-radius: 20px; /* Adjust the radius as needed */
+}
+
+.chartPlaceholder {
+    flex: 2;
+    background-color: #f9def7;
+    padding: 20px;
+    border-top-right-radius: 20px; /* Adjust the radius as needed */
+    border-bottom-right-radius: 20px; /* Adjust the radius as needed */
+}
+
+.custom-button {
+    display: inline-block;
+    border-radius: 0.25vw;
+    background-color: #f9def7; 
+    border: none;
+    color: black;
+    font-size: 1vw;
+    padding: 0.4vw;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 0.1vw #999;
+}
+
+
+.custom-button:hover {
+    background-color: #ffa6c1;
+}
+
+.custom-button2 {
+    display: inline-block;
+    border-radius: 0.25vw;
+    background-color: #f9def7; 
+    border: none;
+    color: black;
+    font-size: 1vw;
+    padding: 0.4vw;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 0.1vw #999;
+}
+
+
+.custom-button2:hover {
+    background-color: #ffa6c1;
+}
+
+.custom-button3 {
+    display: inline-block;
+    border-radius: 0.25vw;
+    background-color: #f9def7; 
+    border: none;
+    color: black;
+    font-size: 1vw;
+    padding: 0.4vw;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 0.1vw #999;
+}
+
+
+.custom-button3:hover {
+    background-color: #ffa6c1;
+}
+
+.button3 {
+    display: inline-block;
+    border-radius: 0.25vw;
+    background-color: #FFE5EC;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 1vw;
+    padding: 0.4vw;
+    font-family: Inria Sans;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 0.1vw #999;
+    position: absolute;
+    bottom: -1.5vw;
+    left: 0;
+    transform: translateY(100%); 
+  }
+  
+  .button3 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button3 span:after {
+    content: '\00ab';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -0.2vw;
+    transition: 0.5s;
+  }
+  .button3:hover {background-color: #ffa6c1}
+  .button3:hover span {
+    padding-left: 0.75vw;
+    padding-right: 0;
+  }
+  
+  .button3:hover span:after {
+    opacity: 1;
+    left: 0;
+  }
+
+  .button4 {
+    display: inline-block;
+    font-size: 1vw;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: #FFE5EC;
+    border: none;
+    border-radius: 0.25vw;
+    box-shadow: 0 0.1vw #999;
+    padding: 0.4vw;
+    transition: all 0.5s;
+    position: absolute;
+    bottom: -1.5vw;
+    left: 0;
+    transform: translateY(100%);
+  }
+  
+  .button4:hover {
+    background-color: #ffa6c1;
+}
+  
+  .button4:active {
+    background-color: #ffa6c1;
+    box-shadow: 0 0.1vw #ccc;
+    transform: translateY(0.2vw);
+  }
+
+  .bottom-navbar {
+    width: 100%;
+    background-color: #333; /* Dark background for visibility */
+    overflow: auto; /* To contain floated elements */
+    position: fixed; /* Fixed position */
+    bottom: 0; /* Position it at the bottom */
+    left: 0;
+    z-index: 1000; /* High z-index to ensure it stays on top of other elements */
+    font-size: 1.5vw; 
+}
+
+.bottom-navbar a {
+    float: left; /* To align horizontally */
+    display: block;
+    text-align: center;
+    padding: 1vh 1vw; 
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw; 
+}
+
+.bottom-navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.container {
+    padding-bottom: 50px; /* Change to the actual height of your navbar */
+}

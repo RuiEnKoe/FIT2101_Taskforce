@@ -1,0 +1,1325 @@
+.sprint-project-inception-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.sprint-project-inception-sprint-project-inception {
+  width: 100%;
+  height: 832px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(248, 200, 220, 1);
+}
+.sprint-project-inception-rectangle1 {
+  top: 0px;
+  left: 0px;
+  width: 1280px;
+  height: 124px;
+  position: absolute;
+}
+.sprint-project-inception-image3 {
+  top: 30px;
+  left: 1136px;
+  width: 65px;
+  height: 65px;
+  position: absolute;
+}
+.sprint-project-inception-text {
+  top: 43px;
+  left: 47px;
+  color: rgba(0, 0, 0, 1);
+  width: 553px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Josefin Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sprint-project-inception-rectangle2 {
+  top: 170px;
+  left: 53px;
+  width: 1174px;
+  height: 609px;
+  position: absolute;
+  border-radius: 20px;
+}
+.sprint-project-inception-group1 {
+  top: 217px;
+  left: 86px;
+  width: 1109px;
+  height: 523px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.sprint-project-inception-rectangle3 {
+  top: 0px;
+  left: 0px;
+  width: 1109px;
+  height: 523px;
+  position: absolute;
+  border-radius: 10px;
+}
+.sprint-project-inception-text02 {
+  top: 230px;
+  left: 978px;
+  color: rgba(104, 104, 104, 1);
+  width: 207px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Imprima;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sprint-project-inception-text04 {
+  top: 259px;
+  left: 978px;
+  color: rgba(104, 104, 104, 1);
+  width: 207px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Imprima;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sprint-project-inception-text06 {
+  top: 289px;
+  left: 925px;
+  color: rgba(104, 104, 104, 1);
+  width: 254px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Imprima;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sprint-project-inception-group26952 {
+  top: 231px;
+  left: 925px;
+  width: 43px;
+  height: 21px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sprint-project-inception-rectangle7 {
+  top: 0px;
+  left: 0px;
+  width: 41px;
+  height: 17px;
+  position: absolute;
+  border-radius: 5px;
+}
+.sprint-project-inception-text08 {
+  top: 1px;
+  left: 5px;
+  color: rgba(0, 0, 0, 1);
+  width: 38px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Imprima;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sprint-project-inception-group26953 {
+  top: 259px;
+  left: 925px;
+  width: 41px;
+  height: 21px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sprint-project-inception-rectangle71 {
+  top: 0px;
+  left: 0px;
+  width: 41px;
+  height: 17px;
+  position: absolute;
+  border-radius: 5px;
+}
+.sprint-project-inception-text10 {
+  top: 1px;
+  left: 4px;
+  color: rgba(0, 0, 0, 1);
+  width: 33px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Imprima;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sprint-project-inception-rectangle6 {
+  top: 580px;
+  left: 676px;
+  width: 159px;
+  height: 110px;
+  position: absolute;
+  border-radius: 5px;
+}
+.sprint-project-inception-text12 {
+  top: 443px;
+  left: 676px;
+  color: rgba(0, 0, 0, 1);
+  width: 102px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Imprima;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sprint-project-inception-text14 {
+  top: 547px;
+  left: 676px;
+  color: rgba(0, 0, 0, 1);
+  width: 102px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Imprima;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sprint-project-inception-text16 {
+  top: 263px;
+  left: 194px;
+  color: rgba(0, 0, 0, 1);
+  width: 464px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Imprima;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sprint-project-inception-text18 {
+  top: 343px;
+  left: 189px;
+  color: rgba(0, 0, 0, 1);
+  width: 464px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Imprima;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sprint-project-inception-text20 {
+  top: 343px;
+  left: 189px;
+  color: rgba(0, 0, 0, 1);
+  width: 464px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Imprima;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sprint-project-inception-text22 {
+  top: 341px;
+  left: 676px;
+  color: rgba(0, 0, 0, 1);
+  width: 464px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Imprima;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sprint-project-inception-text24 {
+  top: 341px;
+  left: 676px;
+  color: rgba(0, 0, 0, 1);
+  width: 102px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Imprima;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sprint-project-inception-text26 {
+  top: 341px;
+  left: 908px;
+  color: rgba(0, 0, 0, 1);
+  width: 102px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Imprima;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sprint-project-inception-radio-button {
+  gap: 5px;
+  top: 590px;
+  left: 684px;
+  width: 171px;
+  display: flex;
+  padding: 3px;
+  position: absolute;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.sprint-project-inception-radio-symbol {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.sprint-project-inception-ellipse1 {
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  border-color: rgba(248, 200, 220, 1);
+  border-style: solid;
+  border-width: 2px;
+}
+.sprint-project-inception-ellipse2 {
+  top: 6px;
+  left: 6px;
+  width: 12px;
+  height: 12px;
+  opacity: 0.00;
+  position: absolute;
+}
+.sprint-project-inception-text28 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  flex-grow: 1;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sprint-project-inception-radio-button1 {
+  gap: 5px;
+  top: 620px;
+  left: 684px;
+  width: 171px;
+  display: flex;
+  padding: 3px;
+  position: absolute;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.sprint-project-inception-radio-symbol1 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.sprint-project-inception-ellipse11 {
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  border-color: rgba(248, 200, 220, 1);
+  border-style: solid;
+  border-width: 2px;
+}
+.sprint-project-inception-ellipse21 {
+  top: 6px;
+  left: 6px;
+  width: 12px;
+  height: 12px;
+  opacity: 0.00;
+  position: absolute;
+}
+.sprint-project-inception-text30 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  flex-grow: 1;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sprint-project-inception-radio-button2 {
+  gap: 5px;
+  top: 650px;
+  left: 684px;
+  width: 171px;
+  display: flex;
+  padding: 3px;
+  position: absolute;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.sprint-project-inception-radio-symbol2 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.sprint-project-inception-ellipse12 {
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  border-color: rgba(248, 200, 220, 1);
+  border-style: solid;
+  border-width: 2px;
+}
+.sprint-project-inception-ellipse22 {
+  top: 6px;
+  left: 6px;
+  width: 12px;
+  height: 12px;
+  opacity: 0.00;
+  position: absolute;
+}
+.sprint-project-inception-text32 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  flex-grow: 1;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sprint-project-inception-line1 {
+  top: 302px;
+  left: 189px;
+  width: 487px;
+  height: 1px;
+  position: absolute;
+}
+.sprint-project-inception-chaptertitle11 {
+  top: 347px;
+  left: 152px;
+  width: 28px;
+  height: 29px;
+  position: absolute;
+}
+.sprint-project-inception-rectangle4 {
+  top: 374px;
+  left: 189px;
+  width: 411px;
+  height: 180px;
+  position: absolute;
+  border-radius: 5px;
+}
+.sprint-project-inception-rectangle5 {
+  top: 376px;
+  left: 908px;
+  width: 232px;
+  height: 329px;
+  position: absolute;
+  border-radius: 5px;
+}
+.sprint-project-inception-group2 {
+  top: 397px;
+  left: 927px;
+  width: 193px;
+  height: 35px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 243, 253, 1);
+}
+.sprint-project-inception-item0 {
+  top: 2px;
+  left: 7px;
+  width: 180px;
+  height: 31px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 5px;
+  flex-direction: column;
+  justify-content: center;
+}
+.sprint-project-inception-radiowrapper {
+  gap: 8px;
+  display: flex;
+  padding: 8px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  justify-content: center;
+}
+.sprint-project-inception-controller {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.sprint-project-inception-thumb {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(97, 97, 97, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  justify-content: center;
+  background-color: var(--dl-color-default-white);
+}
+.sprint-project-inception-icon {
+  width: 2px;
+  height: 2px;
+  display: flex;
+  opacity: 0.00;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.sprint-project-inception-color {
+  top: 0.576171875px;
+  left: 0.4148406982421875px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.sprint-project-inception-text34 {
+  color: var(--dl-color-gray-700);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 150%;
+}
+.sprint-project-inception-group6 {
+  top: 565px;
+  left: 927px;
+  width: 193px;
+  height: 35px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 243, 253, 1);
+}
+.sprint-project-inception-item01 {
+  top: 2px;
+  left: 7px;
+  width: 180px;
+  height: 31px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 5px;
+  flex-direction: column;
+  justify-content: center;
+}
+.sprint-project-inception-radiowrapper1 {
+  gap: 8px;
+  display: flex;
+  padding: 8px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  justify-content: center;
+}
+.sprint-project-inception-controller1 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.sprint-project-inception-text36 {
+  color: var(--dl-color-gray-700);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 150%;
+}
+.sprint-project-inception-group7 {
+  top: 607px;
+  left: 927px;
+  width: 193px;
+  height: 35px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 243, 253, 1);
+}
+.sprint-project-inception-item02 {
+  top: 2px;
+  left: 7px;
+  width: 180px;
+  height: 31px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 5px;
+  flex-direction: column;
+  justify-content: center;
+}
+.sprint-project-inception-radiowrapper2 {
+  gap: 8px;
+  display: flex;
+  padding: 8px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  justify-content: center;
+}
+.sprint-project-inception-controller2 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.sprint-project-inception-text38 {
+  color: var(--dl-color-gray-700);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 150%;
+}
+.sprint-project-inception-group13 {
+  top: 6.5px;
+  left: 16px;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sprint-project-inception-thumb1 {
+  top: 0px;
+  left: 0px;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 6px;
+  justify-content: center;
+  background-color: var(--dl-color-default-black);
+}
+.sprint-project-inception-color1 {
+  width: 14px;
+  height: 10px;
+}
+.sprint-project-inception-group8 {
+  top: 649px;
+  left: 927px;
+  width: 193px;
+  height: 35px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 243, 253, 1);
+}
+.sprint-project-inception-item03 {
+  top: 2px;
+  left: 7px;
+  width: 180px;
+  height: 31px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 5px;
+  flex-direction: column;
+  justify-content: center;
+}
+.sprint-project-inception-radiowrapper3 {
+  gap: 8px;
+  display: flex;
+  padding: 8px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  justify-content: center;
+}
+.sprint-project-inception-controller3 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.sprint-project-inception-thumb2 {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(97, 97, 97, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  justify-content: center;
+  background-color: var(--dl-color-default-white);
+}
+.sprint-project-inception-icon1 {
+  width: 2px;
+  height: 2px;
+  display: flex;
+  opacity: 0.00;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.sprint-project-inception-color2 {
+  top: 0.576171875px;
+  left: 0.4148406982421875px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.sprint-project-inception-text40 {
+  color: var(--dl-color-gray-700);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 150%;
+}
+.sprint-project-inception-group5 {
+  top: 523px;
+  left: 927px;
+  width: 193px;
+  height: 70px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sprint-project-inception-rectangle61 {
+  top: 0px;
+  left: 0px;
+  width: 193px;
+  height: 35px;
+  position: absolute;
+  border-radius: 5px;
+}
+.sprint-project-inception-item04 {
+  top: 2px;
+  left: 7px;
+  width: 180px;
+  height: 31px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 5px;
+  flex-direction: column;
+  justify-content: center;
+}
+.sprint-project-inception-radiowrapper4 {
+  gap: 8px;
+  display: flex;
+  padding: 8px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  justify-content: center;
+}
+.sprint-project-inception-controller4 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.sprint-project-inception-thumb3 {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(97, 97, 97, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  justify-content: center;
+  background-color: var(--dl-color-default-white);
+}
+.sprint-project-inception-icon2 {
+  width: 2px;
+  height: 2px;
+  display: flex;
+  opacity: 0.00;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.sprint-project-inception-color3 {
+  top: 0.576171875px;
+  left: 0.4148406982421875px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.sprint-project-inception-text42 {
+  color: var(--dl-color-gray-700);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 150%;
+}
+.sprint-project-inception-thumb4 {
+  top: 48px;
+  left: 16px;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(97, 97, 97, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  justify-content: center;
+  background-color: var(--dl-color-default-white);
+}
+.sprint-project-inception-icon3 {
+  width: 2px;
+  height: 2px;
+  display: flex;
+  opacity: 0.00;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.sprint-project-inception-color4 {
+  top: 0.576171875px;
+  left: 0.4148406982421875px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.sprint-project-inception-group4 {
+  top: 481px;
+  left: 927px;
+  width: 193px;
+  height: 35px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 243, 253, 1);
+}
+.sprint-project-inception-item05 {
+  top: 2px;
+  left: 7px;
+  width: 180px;
+  height: 31px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 5px;
+  flex-direction: column;
+  justify-content: center;
+}
+.sprint-project-inception-radiowrapper5 {
+  gap: 8px;
+  display: flex;
+  padding: 8px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  justify-content: center;
+}
+.sprint-project-inception-controller5 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.sprint-project-inception-thumb5 {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(97, 97, 97, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  justify-content: center;
+  background-color: var(--dl-color-default-white);
+}
+.sprint-project-inception-icon4 {
+  width: 2px;
+  height: 2px;
+  display: flex;
+  opacity: 0.00;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.sprint-project-inception-color5 {
+  top: 0.576171875px;
+  left: 0.4148406982421875px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.sprint-project-inception-text44 {
+  color: var(--dl-color-gray-700);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 150%;
+}
+.sprint-project-inception-group21 {
+  top: 0px;
+  left: 0px;
+  width: 193px;
+  height: 35px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 243, 253, 1);
+}
+.sprint-project-inception-item06 {
+  top: 2px;
+  left: 7px;
+  width: 180px;
+  height: 31px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 5px;
+  flex-direction: column;
+  justify-content: center;
+}
+.sprint-project-inception-radiowrapper6 {
+  gap: 8px;
+  display: flex;
+  padding: 8px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  justify-content: center;
+}
+.sprint-project-inception-controller6 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.sprint-project-inception-thumb6 {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(97, 97, 97, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  justify-content: center;
+  background-color: var(--dl-color-default-white);
+}
+.sprint-project-inception-icon5 {
+  width: 2px;
+  height: 2px;
+  display: flex;
+  opacity: 0.00;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.sprint-project-inception-color6 {
+  top: 0.576171875px;
+  left: 0.4148406982421875px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.sprint-project-inception-text46 {
+  color: var(--dl-color-gray-700);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 150%;
+}
+.sprint-project-inception-group3 {
+  top: 439px;
+  left: 927px;
+  width: 193px;
+  height: 35px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 243, 253, 1);
+}
+.sprint-project-inception-rectangle72 {
+  top: 0px;
+  left: 0px;
+  width: 193px;
+  height: 35px;
+  position: absolute;
+  border-radius: 5px;
+}
+.sprint-project-inception-item07 {
+  top: 2px;
+  left: 7px;
+  width: 180px;
+  height: 31px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 5px;
+  flex-direction: column;
+  justify-content: center;
+}
+.sprint-project-inception-radiowrapper7 {
+  gap: 8px;
+  display: flex;
+  padding: 8px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  justify-content: center;
+}
+.sprint-project-inception-controller7 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.sprint-project-inception-thumb7 {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(97, 97, 97, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  justify-content: center;
+  background-color: var(--dl-color-default-white);
+}
+.sprint-project-inception-icon6 {
+  width: 2px;
+  height: 2px;
+  display: flex;
+  opacity: 0.00;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.sprint-project-inception-color7 {
+  top: 0.576171875px;
+  left: 0.4148406982421875px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.sprint-project-inception-text48 {
+  color: var(--dl-color-gray-700);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 150%;
+}
+.sprint-project-inception-text50 {
+  top: 384px;
+  left: 201px;
+  color: rgba(0, 0, 0, 1);
+  width: 386px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Imprima;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sprint-project-inception-dropdown-menu-priority {
+  gap: 20px;
+  top: 474px;
+  left: 676px;
+  width: 159px;
+  display: flex;
+  padding: 12px 21px 12px 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 5px;
+  justify-content: flex-end;
+  background-color: rgba(255, 229, 235, 1);
+}
+.sprint-project-inception-ellipse3 {
+  width: 7px;
+  height: 7px;
+}
+.sprint-project-inception-text52 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sprint-project-inception-vector {
+  width: 12px;
+  height: 7px;
+}
+.sprint-project-inception-dropdown-menu-story-point {
+  gap: 20px;
+  top: 374px;
+  left: 676px;
+  width: 159px;
+  display: flex;
+  padding: 12px 21px 12px 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 5px;
+  justify-content: flex-end;
+  background-color: rgba(255, 229, 235, 1);
+}
+.sprint-project-inception-text54 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sprint-project-inception-vector1 {
+  width: 12px;
+  height: 7px;
+}
+.sprint-project-inception-group23 {
+  top: 595px;
+  left: 146px;
+  width: 513px;
+  height: 73px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sprint-project-inception-text55 {
+  top: 4px;
+  left: 49px;
+  color: rgba(0, 0, 0, 1);
+  width: 464px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Imprima;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sprint-project-inception-pngtransparentusersgroupcomputericonsmembershipmis {
+  top: 0px;
+  left: 0px;
+  width: 39px;
+  height: 37px;
+  position: absolute;
+}
+.sprint-project-inception-dropdown-menu-personin-charge {
+  gap: 20px;
+  top: 34px;
+  left: 49px;
+  width: 159px;
+  display: flex;
+  padding: 12px 21px 12px 38px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 5px;
+  justify-content: flex-end;
+  background-color: rgba(255, 229, 235, 1);
+}
+.sprint-project-inception-text57 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sprint-project-inception-vector2 {
+  width: 12px;
+  height: 7px;
+}
+.sprint-project-inception-image2 {
+  top: 690px;
+  left: 106px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+.sprint-project-inception-image49604881 {
+  top: 705px;
+  left: 1157px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
